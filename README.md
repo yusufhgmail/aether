@@ -1,7 +1,7 @@
 # Aether
 
 **Created:** 2026-08-22 by Yusuf Young
-**Status:** Active development. Public website ready; Community Edition is next.
+**Status:** Active development. Public website live; Community Edition is next.
 
 ## The Guiding Star
 
@@ -74,10 +74,12 @@ Aether agents can:
 - The agent has tools, memory, skills, hooks, and autonomous operation
 - Multiple agents can cooperate (Claude Code, Codex, Aether)
 - Not yet published as a community tool for others to use
-- The initial public website is implemented in this repository under the recommended working brand **Aether Many**; it has been compared with current popular agent projects, verified locally on desktop and mobile, and is not published
-- The official registries returned no domain record for `aethermany.com` or `aethermany.ai` when checked on 2026-08-26; neither domain has been purchased, registrar availability can change, and the name has not received professional trademark clearance
+- The public website is live at [aethermany.com](https://aethermany.com), under the working brand **Aether Many**; it has been compared with current popular agent projects and verified on desktop and mobile
+- `aethermany.com` was purchased through GoDaddy on 2026-08-27 and is hosted on Cloudflare Pages; the name has not received professional trademark clearance
 
 ## Website Preview
+
+Live site: <https://aethermany.com/>
 
 Run the site from this directory so its links and assets behave as they will on a static host:
 

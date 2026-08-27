@@ -1,12 +1,12 @@
 # Aether Many website decisions and verification
 
-**Updated:** 2026-08-26
+**Updated:** 2026-08-27
 
 **Objective:** Use the Business Builder website method to create and verify the strongest defensible initial public website for Aether after comparing it with current popular open and self-hosted agents.
 
 **Primary action:** Read and follow the Community Edition plan in the public GitHub repository.
 
-**Scope:** English vision and pre-release website, responsive implementation, working local preview, current-category research, and a reversible naming recommendation. Publication, domain purchase, email collection, analytics, account creation, and a product release are outside scope.
+**Scope:** English vision and pre-release website, responsive implementation, current-category research, naming recommendation, publication, and domain connection. Email collection, analytics, account creation, and a product release are outside scope.
 
 ## Source of truth
 
@@ -94,7 +94,7 @@ Alternatives reconsidered:
 - **Aether Commons:** both exact domains lacked registry records, but the phrase already appears in an art exhibition and a technology-sovereignty proposal.
 - **Aether alone:** rejected because of direct current agent and software collisions and unavailable exact domains.
 
-No domain was bought. Keep the name reversible until Yusuf authorizes a purchase or chooses another name.
+Yusuf bought `aethermany.com` through GoDaddy on 2026-08-27. The purchase makes Aether Many the public working brand, but it does not replace professional trademark clearance.
 
 ## Strategic directions compared
 
@@ -170,5 +170,14 @@ The visual system retains deep green, warm paper, and a sharp chartreuse signal 
 - Removed any implication that self-hosting automatically creates privacy or safety, that Aether invented open agents, that Community Edition can be installed, or that a public license has been chosen.
 - The final cold review can identify what the project is, why it exists beside current agents, what works, what does not exist, what the first public milestone is, and what to do next.
 - A subsequent technical-trust challenge found no remaining material website issue. Further changes were aesthetic alternatives rather than better-supported decisions.
+
+### Production launch
+
+- Published the static site to the free Cloudflare Pages project `aether-many` and connected `aethermany.com` and `www.aethermany.com`.
+- Kept GoDaddy as the registrar and moved authoritative DNS from the temporary SiteGround nameservers to Cloudflare.
+- Added canonical and Open Graph URLs for `https://aethermany.com/`, plus a production sitemap referenced from `robots.txt`.
+- Verified HTTP 200 responses for the homepage, `www` hostname, logo asset, and sitemap; the custom not-found page returns HTTP 404 as intended.
+- Rechecked the live page in Chrome at 1470×854 and 390×844. The mobile menu, runtime explanation, FAQ, responsive width, and console all passed.
+- Both custom hostnames reached Cloudflare Pages `active` status with HTTPS on 2026-08-27.
 
 This is a verified initial website hypothesis, not market validation. Real visitor behavior, GitHub interest after code ships, external installs, operator feedback, the public license, and professional name clearance remain unknown.
