@@ -56,11 +56,11 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
 const explanations = {
   providers: {
     label: "Replaceable intelligence",
-    text: "Model providers sit outside the core. The owner can choose an API or add a local model without moving the agent’s whole operating record.",
+    text: "Model providers sit outside the core. The owner can change an API or add a local model without moving the agent’s whole operating record.",
   },
   core: {
-    label: "Owner boundary",
-    text: "The runtime stays under your control while models and optional capabilities can change around it.",
+    label: "Stable owner-run layer",
+    text: "The runtime is the stable layer on the owner’s server. Models and optional capabilities can change around it.",
   },
   artifacts: {
     label: "Inspectable work",

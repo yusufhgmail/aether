@@ -6,22 +6,22 @@
     <meta name="theme-color" content="#10231f">
     <meta
       name="description"
-      content="Aether Many is a runtime for AI agents that run on infrastructure you control, keep an inspectable record, and can grow into a force of specialized agents."
+      content="Aether Many is building a free Community Edition for AI agents that run on your server, keep a readable record, and remain under your control as they grow."
     >
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Aether Many — Your AI should belong to you">
+    <meta property="og:title" content="Aether Many — AI agents you can keep">
     <meta
       property="og:description"
-      content="A user-owned agent runtime for one server today and independent agent forces tomorrow."
+      content="A working private runtime today. A free Community Edition for GitHub next."
     >
     <meta name="twitter:card" content="summary">
-    <title>Aether Many — Your AI should belong to you</title>
+    <title>Aether Many — AI agents you can keep</title>
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/styles.css">
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to the main content</a>
+    <a class="skip-link" href="#hero-title">Skip to the main content</a>
 
     <header class="site-header" data-header>
       <div class="header-inner">
@@ -43,9 +43,8 @@
         </button>
 
         <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-nav>
-          <a href="#why">Why</a>
+          <a href="#why">Why Aether</a>
           <a href="#runtime">How it works</a>
-          <a href="#principles">Principles</a>
           <a href="#status">Current state</a>
           <a class="nav-action" href="https://github.com/yusufhgmail/aether">Follow on GitHub</a>
         </nav>
@@ -56,20 +55,20 @@
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow reveal">A user-owned agent runtime</p>
-            <h1 id="hero-title" class="reveal">Your AI should belong to you.</h1>
+            <p class="eyebrow reveal">Free Community Edition · GitHub next</p>
+            <h1 id="hero-title" class="reveal" tabindex="-1">AI agents you can keep.</h1>
             <p class="hero-lead reveal">
-              Aether Many is a runtime for agents that live on your server, work across the tools you choose, and leave a record you can inspect.
+              Aether Many is a runtime in development for agents that work from your server. Change the model. Inspect the work. Review every repair. Keep the system under your control.
             </p>
             <div class="hero-actions reveal">
               <a class="button button-primary" href="https://github.com/yusufhgmail/aether">
-                Follow the public release
+                See the plan on GitHub
                 <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 5l3 3-3 3" /></svg>
               </a>
               <a class="text-link" href="#status">See what runs today</a>
             </div>
             <p class="release-note reveal">
-              Community Edition is in development. There is no public installer yet.
+              Private runtime: running. Public installer: not released.
             </p>
           </div>
 
@@ -77,7 +76,7 @@
             <div class="system-window">
               <div class="system-bar">
                 <span class="system-dot" aria-hidden="true"></span>
-                <span>OWNER BOUNDARY / NODE 01</span>
+                <span>PRIVATE RUNTIME / OWNER VPS</span>
                 <span class="system-live">RUNNING</span>
               </div>
               <div class="system-body">
@@ -95,10 +94,10 @@
                   <span class="orbit-node node-six"></span>
                 </div>
                 <dl class="system-specs">
-                  <div><dt>Host</dt><dd>Your Ubuntu server</dd></div>
-                  <div><dt>Models</dt><dd>Replaceable providers</dd></div>
-                  <div><dt>State</dt><dd>Plain files + Git</dd></div>
-                  <div><dt>Memory</dt><dd>Optional</dd></div>
+                  <div><dt>Host</dt><dd>Owner-controlled Ubuntu VPS</dd></div>
+                  <div><dt>Work</dt><dd>Tools + cooperating agents</dd></div>
+                  <div><dt>Record</dt><dd>Plain files + Git</dd></div>
+                  <div><dt>Public CE</dt><dd>In development</dd></div>
                 </dl>
               </div>
             </div>
@@ -106,43 +105,43 @@
         </div>
 
         <ul class="hero-proof reveal">
-          <li>Runs on your server</li>
-          <li>Keeps an inspectable record</li>
-          <li>Does not depend on one model</li>
+          <li><strong>Today</strong> One private runtime works</li>
+          <li><strong>Next</strong> Free Community Edition on GitHub</li>
+          <li><strong>Later</strong> Many agents with many owners</li>
         </ul>
       </section>
 
       <section class="section section-problem" id="why" aria-labelledby="why-title">
         <div class="section-heading reveal">
-          <p class="eyebrow">Why ownership matters</p>
-          <h2 id="why-title">Owning your data is not enough if you rent the system that reasons over it.</h2>
+          <p class="eyebrow">Why build another agent?</p>
+          <h2 id="why-title">Running an agent on your server is only the first step toward owning it.</h2>
           <p>
-            When an agent exists only inside someone else’s platform, that platform can change its price, behavior, limits, or access. Your business may own the inputs while still depending on a brain it can lose.
+            Open agents already prove that useful assistants can run outside a central AI product. Aether Many starts from that progress and applies a harder test: can the owner still understand, change, and keep the system after it learns new skills and grows into a team?
           </p>
         </div>
 
         <div class="ownership-compare reveal">
           <article class="compare-card compare-rented">
-            <p class="compare-label">Rented agent</p>
-            <h3>The platform remains in control.</h3>
+            <p class="compare-label">Server control alone</p>
+            <h3>The agent can still become hard to leave.</h3>
             <ul>
-              <li>Its account is the agent’s home</li>
-              <li>Its model choices shape your options</li>
-              <li>Its logs decide what you can inspect</li>
-              <li>Its terms decide whether you stay</li>
+              <li>One model can still be hard-coded</li>
+              <li>Useful state can still hide in a database</li>
+              <li>New capabilities can quietly widen access</li>
+              <li>Repairs can rewrite the system without review</li>
             </ul>
           </article>
           <div class="compare-divider" aria-hidden="true">
             <span>instead</span>
           </div>
           <article class="compare-card compare-owned">
-            <p class="compare-label">Owned agent</p>
-            <h3>You control the place it lives.</h3>
+            <p class="compare-label">Aether’s ownership test</p>
+            <h3>You can see what changed and choose what stays.</h3>
             <ul>
-              <li>Your server holds the runtime</li>
-              <li>Providers can be changed</li>
-              <li>Tasks and changes leave a record</li>
-              <li>You decide what gets added</li>
+              <li>The runtime lives on your server</li>
+              <li>Model providers remain replaceable</li>
+              <li>Tasks and state use readable artifacts</li>
+              <li>Repairs arrive as reviewable Git changes</li>
             </ul>
           </article>
         </div>
@@ -150,10 +149,10 @@
 
       <section class="section section-runtime" id="runtime" aria-labelledby="runtime-title">
         <div class="section-heading section-heading-light reveal">
-          <p class="eyebrow">How the runtime fits together</p>
-          <h2 id="runtime-title">One controlled layer connects the models, tools, and records you choose.</h2>
+          <p class="eyebrow">How Community Edition should work</p>
+          <h2 id="runtime-title">Keep the runtime small. Make everything around it replaceable.</h2>
           <p>
-            Aether Many is not another AI model. It is the layer that keeps an agent running, gives it approved capabilities, and records what it did.
+            Aether Many is not an AI model. It is the planned operating layer that keeps an agent running, gives it approved capabilities, and records what happened in forms the owner can inspect.
           </p>
         </div>
 
@@ -170,7 +169,7 @@
           <button class="map-core" type="button" data-map-target="core" aria-label="Aether Many runtime">
             <img src="/assets/mark.svg" alt="" width="60" height="60">
             <strong>Aether Many</strong>
-            <span>Agent runtime</span>
+            <span>Owner-run runtime</span>
           </button>
 
           <div class="map-connector connector-out" aria-hidden="true"><span></span></div>
@@ -185,80 +184,80 @@
 
           <div class="map-explanation" aria-live="polite" data-map-explanation>
             <span>Owner boundary</span>
-            The runtime stays under your control while models and optional capabilities can change around it.
+            The owner-run runtime is the stable layer. Models and optional capabilities can change around it.
           </div>
         </div>
 
         <ol class="growth-path reveal">
           <li>
             <span class="path-number">01</span>
-            <h3>Run one useful agent</h3>
-            <p>Start on a single Ubuntu server with a small set of jobs the owner can review.</p>
+            <h3>Install one dependable agent</h3>
+            <p>The first public milestone is a documented setup another person can run on one Ubuntu server.</p>
           </li>
           <li>
             <span class="path-number">02</span>
-            <h3>Add only what it needs</h3>
-            <p>Skills and integrations sit outside the core, with their permissions made explicit.</p>
+            <h3>Add only what the job needs</h3>
+            <p>Skills, memory, and integrations stay optional, with their access made explicit.</p>
           </li>
           <li>
             <span class="path-number">03</span>
-            <h3>Improve without hiding changes</h3>
-            <p>Configuration, tasks, and proposed repairs stay readable and can be reviewed in Git.</p>
+            <h3>Review how it changes</h3>
+            <p>Configuration, tasks, and proposed repairs stay readable and reviewable in Git.</p>
           </li>
           <li>
             <span class="path-number">04</span>
-            <h3>Grow into an agent force</h3>
-            <p>Specialized agents can work together without giving one central platform ownership of them all.</p>
+            <h3>Grow into an AI team</h3>
+            <p>Specialized agents can work together while the same person or company keeps the operating boundary.</p>
           </li>
         </ol>
       </section>
 
       <section class="section section-principles" id="principles" aria-labelledby="principles-title">
         <div class="section-heading reveal">
-          <p class="eyebrow">The rules are part of the product</p>
-          <h2 id="principles-title">A powerful agent is only useful when its owner can understand and change it.</h2>
+          <p class="eyebrow">What the public release must preserve</p>
+          <h2 id="principles-title">Free code is not enough. The running system must remain understandable and recoverable.</h2>
         </div>
 
         <div class="principle-grid">
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">⌂</span>
-            <h3>Your infrastructure</h3>
-            <p>The default home is one server you control—not an account that can become the only way in.</p>
+            <h3>One clear home</h3>
+            <p>The default is one Ubuntu server you control, without requiring Docker or Kubernetes.</p>
           </article>
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">≡</span>
             <h3>A readable trail</h3>
-            <p>Tasks, logs, and changes use plain artifacts so the owner can see what happened and why.</p>
+            <p>Tasks, logs, and changes use plain artifacts so the owner can follow what happened.</p>
           </article>
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">↔</span>
             <h3>Replaceable models</h3>
-            <p>The runtime is separate from the model provider, so one vendor does not become the whole system.</p>
+            <p>The runtime stays separate from model providers, so changing intelligence does not mean abandoning the agent.</p>
           </article>
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">＋</span>
-            <h3>Optional capabilities</h3>
-            <p>Memory and integrations are added deliberately. The core does not quietly expand its own reach.</p>
+            <h3>Deliberate access</h3>
+            <p>Memory and integrations are optional. The owner decides when the agent’s reach expands.</p>
           </article>
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">⌁</span>
-            <h3>Repair before mutation</h3>
-            <p>Fixes can be proposed as separate, reviewable changes instead of rewriting operational history.</p>
+            <h3>Review before repair</h3>
+            <p>Fixes are meant to arrive as separate Git changes instead of silently rewriting the running system.</p>
           </article>
           <article class="principle-card reveal">
             <span class="principle-glyph" aria-hidden="true">•••</span>
-            <h3>Many owners, no throne</h3>
-            <p>The long-term system is millions of independent agents that can cooperate without one owner above them all.</p>
+            <h3>Many independent owners</h3>
+            <p>The long-term goal is millions of owned agents that can cooperate without one platform owning them all.</p>
           </article>
         </div>
       </section>
 
       <section class="section section-status" id="status" aria-labelledby="status-title">
         <div class="status-intro reveal">
-          <p class="eyebrow">Where the project stands</p>
-          <h2 id="status-title">Aether runs today. The public edition is still being built.</h2>
+          <p class="eyebrow">What is real today</p>
+          <h2 id="status-title">One private Aether runtime works. The public installer is not ready.</h2>
           <p>
-            One private Aether instance already runs Yusuf Young’s agent on an Ubuntu VPS. It uses tools, skills, memory, hooks, and multiple cooperating agents. Turning that working system into something other people can safely install is the next job.
+            Yusuf Young’s agent runs on an Ubuntu VPS he controls. It uses tools, skills, memory, hooks, and cooperating agents to do real project work. The next job is turning that private system into a documented release other people can operate safely.
           </p>
         </div>
 
@@ -266,20 +265,20 @@
           <article class="status-item status-now">
             <span class="status-marker" aria-hidden="true"></span>
             <p class="status-kicker">Running now</p>
-            <h3>One owner, one server</h3>
-            <p>The private runtime performs real work and keeps its operational state on infrastructure Yusuf controls.</p>
+            <h3>A working private runtime</h3>
+            <p>The agent performs real work and keeps its operating state on Yusuf’s server.</p>
           </article>
           <article class="status-item">
             <span class="status-marker" aria-hidden="true"></span>
-            <p class="status-kicker">Being prepared</p>
-            <h3>Community Edition</h3>
-            <p>The private system must become a documented, dependable release with a clear install and safe defaults.</p>
+            <p class="status-kicker">The next public proof</p>
+            <h3>A free GitHub release</h3>
+            <p>Community Edition must ship with a clear install, safe defaults, documentation, and a recovery path.</p>
           </article>
           <article class="status-item">
             <span class="status-marker" aria-hidden="true"></span>
-            <p class="status-kicker">The direction</p>
-            <h3>Independent agent forces</h3>
-            <p>People and companies run their own groups of specialized agents and choose how they cooperate.</p>
+            <p class="status-kicker">The long-term direction</p>
+            <h3>AI teams with many owners</h3>
+            <p>People and companies run their own groups of specialized agents and choose how those groups cooperate.</p>
           </article>
         </div>
       </section>
@@ -289,27 +288,35 @@
           <img src="/assets/mark.svg" alt="" width="92" height="92">
         </div>
         <div class="vision-copy reveal">
-          <p class="eyebrow">The long view</p>
-          <h2 id="vision-title">Intelligence should have millions of owners.</h2>
+          <p class="eyebrow">Why “Many” is in the name</p>
+          <h2 id="vision-title">The answer to one dominant AI is not a different dominant AI.</h2>
           <p>
-            The goal is not to build one perfect agent for everyone. It is to make independent agents practical enough that every person and company can own the intelligence working on its behalf.
+            Aether Many exists to make independent agents practical enough that every person and company can own the intelligence working on its behalf.
           </p>
           <p>
-            Those agents should be able to cooperate and compete under clear rules—without turning one smarter system into the permanent center of power.
+            Those agents should be able to cooperate and compete under clear rules—without turning one smarter system or one central platform into the permanent owner of the network.
           </p>
         </div>
       </section>
 
       <section class="section section-faq" aria-labelledby="faq-title">
         <div class="section-heading reveal">
-          <p class="eyebrow">Before you follow the build</p>
-          <h2 id="faq-title">What Aether Many is—and is not.</h2>
+          <p class="eyebrow">The honest answers before you follow</p>
+          <h2 id="faq-title">What Aether Many can promise now.</h2>
         </div>
 
         <div class="faq-list reveal">
           <details>
             <summary>Can I install Community Edition today?</summary>
-            <p>No. Aether runs privately today, but the documented public release is still being prepared. The GitHub repository is where that release will appear.</p>
+            <p>No. One private Aether runtime works today, but the documented public installer has not been released. The GitHub repository is where that release will appear.</p>
+          </details>
+          <details>
+            <summary>Will Community Edition be free?</summary>
+            <p>That is the plan. Community Edition is being prepared as a free GitHub release. Its license and exact release terms will be stated before the code ships.</p>
+          </details>
+          <details>
+            <summary>Why build this when open agents already exist?</summary>
+            <p>Existing projects have already proved that useful agents can be open and self-hosted. Aether Many focuses on keeping ownership understandable as one agent changes and grows into many: readable operating records, optional capabilities, replaceable models, and reviewable repairs.</p>
           </details>
           <details>
             <summary>Does it require a local AI model?</summary>
@@ -321,7 +328,7 @@
           </details>
           <details>
             <summary>Does self-hosting make an agent private and safe?</summary>
-            <p>Not by itself. Privacy still depends on the models, tools, permissions, retention, and access rules you choose. Aether’s job is to make those choices explicit and inspectable.</p>
+            <p>No. Privacy and safety still depend on the models, tools, permissions, retention, and access rules you choose. Aether Many is meant to make those choices visible; it cannot make every choice safe.</p>
           </details>
           <details>
             <summary>Is this the company AI service?</summary>
@@ -332,12 +339,12 @@
 
       <section class="section section-cta" aria-labelledby="cta-title">
         <div class="cta-copy reveal">
-          <p class="eyebrow">Community Edition is next</p>
-          <h2 id="cta-title">Follow the build from one private agent to a public runtime.</h2>
-          <p>The repository currently holds the vision. Code, installation instructions, and release notes will follow as Community Edition becomes ready for other operators.</p>
+          <p class="eyebrow">Community Edition is the next proof</p>
+          <h2 id="cta-title">Help turn one working private agent into a free public runtime.</h2>
+          <p>The repository currently holds the mission and public plan. Code, installation instructions, and release notes will follow when Community Edition is ready for other operators.</p>
           <div class="cta-actions">
             <a class="button button-inverse" href="https://github.com/yusufhgmail/aether">
-              Follow Aether Many on GitHub
+              Follow the build on GitHub
               <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 5l3 3-3 3" /></svg>
             </a>
             <a class="text-link text-link-light" href="https://yusufyoung.com/thesis/">Read the sovereign AI thesis</a>
@@ -355,7 +362,7 @@
           <img src="/assets/mark.svg" alt="" width="28" height="28">
           <span class="brand-name">Aether Many</span>
         </a>
-        <p>A user-owned agent runtime. Community Edition is in development.</p>
+        <p>AI agents you can keep. Community Edition is in development.</p>
       </div>
       <div class="footer-links">
         <a href="https://github.com/yusufhgmail/aether">GitHub</a>

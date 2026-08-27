@@ -82,9 +82,9 @@ h3 {
 }
 
 h1 {
-  max-width: 10ch;
+  max-width: 11.5ch;
   margin-bottom: 28px;
-  font-size: clamp(4.2rem, 8vw, 8.3rem);
+  font-size: clamp(4rem, 6vw, 6.25rem);
   font-weight: 660;
 }
 
@@ -272,7 +272,7 @@ h3 {
 
 .hero {
   min-height: 100vh;
-  padding-top: clamp(140px, 16vh, 190px);
+  padding-top: clamp(118px, 14vh, 160px);
   padding-bottom: 0;
   overflow: hidden;
   background:
@@ -538,10 +538,16 @@ h3 {
   padding: 24px 26px;
   font-family: var(--font-mono);
   font-size: 0.68rem;
-  font-weight: 700;
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.hero-proof strong {
+  margin-right: 7px;
+  color: #45645c;
+  font-size: 0.58rem;
+  letter-spacing: 0.09em;
 }
 
 .hero-proof li + li {
@@ -603,9 +609,9 @@ h3 {
 }
 
 .compare-card h3 {
-  max-width: 13ch;
+  max-width: 15ch;
   margin-bottom: 30px;
-  font-size: clamp(2rem, 3.5vw, 3.6rem);
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
 }
 
 .compare-card ul {

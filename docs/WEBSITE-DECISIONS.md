@@ -1,137 +1,174 @@
-# Aether website decisions and verification
+# Aether Many website decisions and verification
 
 **Updated:** 2026-08-26
 
-**Objective:** Build the strongest defensible initial public website for Aether before real visitor evidence exists.
+**Objective:** Use the Business Builder website method to create and verify the strongest defensible initial public website for Aether after comparing it with current popular open and self-hosted agents.
 
-**Primary action:** Follow the Community Edition build in the public GitHub repository.
-**Scope:** English vision website, responsive implementation, working local preview, naming and domain recommendation. No publication, domain purchase, email collection, analytics, or account creation was authorized.
+**Primary action:** Read and follow the Community Edition plan in the public GitHub repository.
+
+**Scope:** English vision and pre-release website, responsive implementation, working local preview, current-category research, and a reversible naming recommendation. Publication, domain purchase, email collection, analytics, account creation, and a product release are outside scope.
 
 ## Source of truth
 
-- The project README defines Aether as a user-owned, decentralized, auditable, composable and self-improving agent runtime, and records the long-term agent-force vision.
-- The VPS archive records the philosophy, architecture, edition model, Git-backed repair approach, Ubuntu-first default and earlier Community Edition plans.
-- The current cross-project record says one private Aether instance runs Yusuf Young's personal agent on an Ubuntu VPS with tools, memory, skills, hooks, autonomous operation and cooperating agents.
-- Company Native and Works Like Us are separate ventures. Company Native builds custom CRM systems; Works Like Us builds company-specific AI systems. Aether is the underlying runtime, not another services website.
+- The project README defines the mission: counter concentration of AI power with user-owned, decentralized agents and, later, groups of specialized agents with many independent owners.
+- The project records define Aether as a small agent runtime rather than an AI model. Its intended design separates model providers and optional capabilities from the core, keeps operating records readable, and uses Git for review and recovery.
+- A private Aether instance runs Yusuf Young's personal agent on an Ubuntu VPS he controls. It has tools, skills, memory, hooks, autonomous operation, and cooperating agents.
+- The public GitHub repository currently contains the mission and website, not an installable Community Edition.
+- Company Native and Works Like Us are separate ventures. Aether Many is the underlying runtime project, not a company-AI service.
 
 ## Truth inventory
 
 ### Verified facts
 
-- A private Aether instance runs on an Ubuntu 24.04 VPS controlled by Yusuf.
-- That instance has tools, memory, skills, hooks, autonomous operation and support for cooperating agents.
-- The public GitHub repository currently contains the vision record, not an installable Community Edition.
-- The intended core separates the runtime from model providers and optional integrations.
-- The design uses plain operational artifacts and recommends Git for review, recovery and repair.
-- The default target is one Ubuntu server with root and bash; containers and Kubernetes are not required.
+- A private Aether runtime works on an owner-controlled Ubuntu 24.04 VPS.
+- The private system uses tools, skills, memory, hooks, autonomous operation, and cooperating agents.
+- The intended core is separate from model providers and optional integrations.
+- The intended design uses readable operating artifacts and Git-backed review, recovery, and repair.
+- The default target is one Ubuntu server with root and bash; Docker and Kubernetes are not required.
+- The public repository does not yet contain an installer or a public runtime release.
 
-### Reasonable inferences used on the website
+### Recorded plans stated as plans
 
-- The first useful public audience is technically capable operators and contributors who care about control, inspectability and provider choice.
-- A future company buyer can understand the long-term value, but a commercial company-AI enquiry belongs to Works Like Us rather than this site.
-- Following the GitHub repository is the smallest honest action before an installer or public community exists.
-- An ownership-led explanation gives the technical design a clear purpose without requiring visitors to share the full political thesis first.
+- Community Edition is intended to be free and released through GitHub.
+- The first public proof should be a documented install another operator can run safely on one Ubuntu server.
+- The long-term direction is multiple specialized agents owned by different people and companies, able to cooperate under clear rules.
+- The public license and exact release terms have not been settled in the records and therefore are not claimed on the website.
 
 ### Untested hypotheses
 
-- “Your AI should belong to you” will make the project clearer and more compelling than a developer-framework or dystopian-risk opening.
-- “Aether Many” will be remembered as a coherent continuation of Aether rather than as an unrelated rename.
-- The first public users will value a single-server, plain-file and Git-backed default enough to choose it over more established agent frameworks.
-- GitHub follows will be a useful early signal of relevant demand.
+- “AI agents you can keep” will explain the ownership outcome faster than a runtime-first or concentration-risk opening.
+- The combined stance—small core, readable records, optional capabilities, replaceable models, and reviewable repair—will matter enough to earn attention in a category with mature alternatives.
+- “Aether Many” will be understood as one Aether project built for many independent owners, rather than as an awkward extension or a separate product.
+- GitHub interest will be a useful first demand signal once the repository contains code people can evaluate.
+
+## Current agent category research
+
+The category check used official homepages, official repositories, and the GitHub API on 2026-08-26. GitHub stars are a rough adoption signal, not a product-quality ranking.
+
+| Project | GitHub stars | What its official site leads with | What Aether should learn |
+| --- | ---: | --- | --- |
+| [OpenClaw](https://openclaw.ai/) | 387,716 | A personal assistant that completes familiar tasks from existing chat apps, followed immediately by a working install | Lead with a useful outcome, show the next action early, and make ownership concrete rather than philosophical |
+| [Hermes Agent](https://hermes-agent.nousresearch.com/) | 236,892 | An agent that learns from its owner, with desktop and one-line installs plus memory, scheduling, delegation, and broad model choice | Self-improvement, VPS operation, model choice, and no lock-in are already strong category claims; Aether cannot present them as unique |
+| [AutoGPT](https://agpt.co/) | 186,904 | Time saved, visible product surfaces, a marketplace, and commercial proof alongside a self-hosted GitHub path | Mature projects show the work and the proof; Aether must clearly mark what exists before it can imitate this structure |
+| [OpenHands](https://www.openhands.dev/) | 85,199 | Coding agents as inspectable infrastructure, concrete automations, integrations, and separate open, team, and enterprise paths | Show real jobs and operating boundaries, but do not let future commercial paths blur the Community Edition promise |
+| [Open Interpreter](https://www.openinterpreter.com/) | 68,162 | A coding agent for open models | A narrow, direct category sentence is easier to remember than a list of capabilities |
+| [AutoGen](https://github.com/microsoft/autogen) | 60,643 | A programming framework for agentic AI | Framework language is crowded and mainly useful to developers |
+| [CrewAI](https://www.crewai.com/) | 57,649 | Coordinated role-based agents | Multi-agent operation is established category territory, not a unique claim |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | 40,502 | Resilient, stateful agent building | Durable execution and human review are established expectations |
+| [Letta](https://docs.letta.com/) | 24,453 | Stateful agents with memory that learn over time | Memory and self-improvement need a more specific ownership reason in Aether's story |
+| [Agent Zero](https://www.agent-zero.ai/) | 18,978 | A transparent autonomous agent with a full computer, launcher, provider choice, and community plugins | Visible operation, guided setup, and a concrete machine boundary create trust better than abstract autonomy claims |
+
+### Competitive conclusion
+
+OpenClaw and Hermes already offer the installable, open, self-hosted, model-flexible agent story at enormous scale. Aether Many is not yet a credible replacement for them. Its strongest honest position is a narrower development promise: keep ownership understandable as an agent learns, changes, and grows into a team. The website therefore emphasizes readable operating records, optional access, replaceable models, and Git-reviewed repair, while stating that the public installer does not exist yet.
+
+The visual lesson was also selective. The leading sites use one strong promise, a recognizable product character, an immediate install or product action, and visible proof. Aether Many borrows that clarity, not their mascots, dark terminal branding, feature language, layouts, or unsupported adoption signals.
 
 ## Relevant visitor roles
 
 ### Technical operator or contributor
 
-Wants to understand what the runtime is, why it differs from other agent frameworks, what it will require, what is real today, and whether the project is worth following. The largest trust risk is mistaking a vision for released software.
+Needs to know what Aether Many is, why it exists beside established open agents, what is real, what the first release is meant to do, and whether following the repository is worth the effort. The largest reason to leave is the absence of public code.
 
-### Company or product leader
+### Person or company planning to depend on agents
 
-Wants to understand why ownership matters and how an owned runtime could reduce dependency. The largest comprehension risk is confusing Aether with the Works Like Us service.
+Needs to understand the practical meaning of ownership beyond server location. The largest risk is mistaking a long-term movement for a usable product today.
 
 ### Technical or security reviewer
 
-Wants concrete boundaries around hosting, providers, memory, permissions, logging and change control. The largest trust risk is treating self-hosting as an automatic privacy or safety guarantee.
+Needs clear boundaries around hosting, model providers, memory, permissions, records, repair, and self-hosting claims. The largest trust risk is treating self-hosting as an automatic privacy or safety guarantee.
 
 ## Naming recommendation
 
-**Recommended working brand: Aether Many.** It keeps the existing Aether identity while naming the mission: intelligence should have many independent owners rather than one central platform.
+**Recommended working brand: Aether Many.** “Many” names the mission: the future should contain many agents with many independent owners, not one dominant system. It also makes the project more distinguishable than “Aether” alone.
 
-On 2026-08-26, both `aethermany.com` and `aethermany.ai` returned no registration in their registry RDAP services and GoDaddy presented both exact domains as available to add to the cart. A focused public-web search found no obvious exact-name software or company collision. This is a time-sensitive availability check and a preliminary public collision screen, not a reservation, purchase or professional trademark clearance.
+The need for a modifier is stronger than the first naming pass suggested. Current projects now use “Aether” for an open-source coding agent at [aether-agent.io](https://aether-agent.io/), a local model-sharing app at [goaether.net](https://goaether.net/), an AI observability tool, a 5G platform, and several other software products. The website should never present bare “Aether” as an unqualified unique name.
 
-Alternatives considered:
+On 2026-08-26, the official `.com` and `.ai` RDAP services returned no registration record for both `aethermany.com` and `aethermany.ai`. GitHub's repository search returned no exact “Aether Many” name or description match. These checks are time-sensitive preliminary screens. They do not reserve either domain, prove registrar availability, or replace professional trademark clearance.
 
-- **Aether Commons:** strong open ecosystem meaning and both domains appeared available, but the exact phrase is already the name of a 2026 art exhibition and appears in another technology-sovereignty proposal.
-- **Aether Helm:** both domains appeared available and “helm” implies control, but it creates a strong Kubernetes association that conflicts with Aether's no-Kubernetes-required default.
-- **Aether Local:** both domains appeared available and it explains control, but it makes a remote owner-controlled VPS sound excluded.
-- **Aether alone:** preserves the current name but the exact `.com` and `.ai` are registered and multiple current AI and software projects already use Aether.
+Alternatives reconsidered:
 
-No domain was purchased. Keep the brand recommendation reversible until Yusuf authorizes a purchase or chooses another name.
+- **Aether Open:** both exact domains lacked registry records, but “open” is generic, the public runtime is not released, and another networking product already uses “Aether Open.”
+- **Aether Union:** both exact domains lacked registry records and the name supports cooperation, but it says little about the product and can sound political or organizational.
+- **Aetherstead:** both exact domains lacked registry records and the name suggests a home for an agent, but an exact-name game already exists and the word pushes the brand toward fantasy.
+- **Aether Commons:** both exact domains lacked registry records, but the phrase already appears in an art exhibition and a technology-sovereignty proposal.
+- **Aether alone:** rejected because of direct current agent and software collisions and unavailable exact domains.
 
-## Website directions compared
+No domain was bought. Keep the name reversible until Yusuf authorizes a purchase or chooses another name.
 
-### 1. Ownership first — selected
+## Strategic directions compared
 
-Lead with “Your AI should belong to you.” Explain the dependency in plain language, show the owner boundary, prove the idea with the current private instance, and end with the many-owner vision. This gives both technical and nontechnical visitors a reason to care before asking them to understand the runtime.
+### 1. The useful personal assistant
 
-### 2. Dystopian manifesto
+Lead with everyday tasks, messaging channels, memory, and fast setup in the style of OpenClaw and Hermes. This would be the easiest category story to understand, but it would imply a product experience Aether Many has not released and would compete on claims mature projects already prove.
 
-Lead with concentration of AI power and the risk of one dominant system. This is faithful to the long-term philosophy, but it makes the project sound more speculative and adversarial than useful. It also delays the practical explanation of what Aether is.
+### 2. The developer runtime
 
-### 3. Developer runtime
+Lead with Ubuntu, provider abstraction, Markdown artifacts, Git-backed repair, and a small core. This is concrete for engineers, but it makes the project look like an unreleased version of several established frameworks and hides the reason those decisions matter.
 
-Lead with an auditable Ubuntu-first runtime, Markdown artifacts and provider abstraction. This is immediately concrete for engineers, but it hides why the design choices matter and makes the project look like a smaller version of existing orchestration frameworks.
+### 3. AI agents you can keep — selected
 
-The selected direction keeps the technical specificity of direction 3 and the stakes of direction 2, but orders them around the visitor's practical question: who controls the agent?
+Lead with the lasting ownership outcome, immediately state that Community Edition is next rather than available, show the real private runtime, explain the ownership test beyond self-hosting, then connect the small-core design to the many-owner mission. This direction is the clearest, most credible bridge between what works privately and what the project exists to build publicly.
 
-## Category evidence used
-
-Current official documentation shows that established alternatives already claim important parts of the category: Letta emphasizes stateful, self-improving agents and self-hosting; OpenHands offers an open agent SDK and remote runtimes; LangGraph emphasizes durable execution and human review. Aether should not claim those capabilities as unique. The clearer initial distinction is the combined operating stance: one owner-controlled Ubuntu server, an intentionally small core, optional memory and integrations, plain artifacts, and repair through reviewable Git changes.
+The selected direction keeps the technical specificity of direction 2 and the immediate benefit discipline of direction 1 without claiming an install, adoption, or proof that does not exist.
 
 ## Visitor journey and design system
 
-- Hero: owner benefit, plain product explanation, honest pre-release note and GitHub action.
-- Problem: the difference between owning data and owning the agent runtime.
-- Runtime map: models enter through replaceable providers; Aether coordinates the work; tasks, logs, state and skills remain inspectable.
-- Growth path: one agent, deliberate capabilities, reviewable improvement, then agent forces.
-- Principles: the design rules that preserve control.
-- Current state: separate what runs privately, what is being prepared and what remains a long-term direction.
-- FAQ: resolve availability, model, infrastructure, privacy and venture-boundary objections.
-- Final action: follow the build or read the founding thesis.
+- Hero: “AI agents you can keep,” the planned free GitHub edition, the private-runtime proof, and the GitHub plan in one screen.
+- Why another agent: acknowledge existing open agents and explain why server location alone does not settle ownership.
+- Runtime: show replaceable intelligence, the stable owner-run layer, and inspectable work.
+- First-release path: install one dependable agent, add deliberate capabilities, review changes, then grow into an AI team.
+- Principles: define the design commitments the public release must preserve.
+- Current state: separate the working private runtime, the next public proof, and the long-term direction.
+- Mission: explain “Many” and the decentralized ownership purpose.
+- FAQ: answer install status, free-release plan, category overlap, model choice, infrastructure, privacy, and venture boundaries.
+- Final action: follow the build on GitHub; no form, fake install, account, or invented community proof.
 
-The visual system uses deep green, warm paper and a sharp chartreuse signal color. The mark is a bounded hexagonal system with six equal outside nodes and no throne-like dominant node. System type, diagrams and restrained motion support the operational character without generic brains, sparkles, humanoid robots or glowing network art.
+The visual system retains deep green, warm paper, and a sharp chartreuse signal color. The mark is a bounded hexagonal system with six equal outside nodes and no dominant node. The operating-window illustration expresses a real owner boundary without copying the lobster, caduceus, terminal, or product-UI identities of the researched projects.
 
-## Verification log
+## Iteration and verification log
 
-### Initial implementation pass
+### Category-informed rewrite
 
-- Built the complete one-page journey, custom SVG identity, responsive navigation, interactive runtime map, FAQ, metadata, favicon, robots policy and custom not-found page.
-- Kept the primary action on GitHub rather than adding a form or pretending that Community Edition is ready to install.
-- Rendered the site in Chrome at 1440×1000 and 390×844. The headline, owner-boundary diagram, comparison, runtime map, principles, current-state timeline, long-term vision, FAQ and final action remained legible.
+- Replaced the manifesto-first opening with one direct outcome and made the pre-release state visible in the first screen.
+- Added the free GitHub plan, the real private-runtime proof, and the public-installer gap beside each other.
+- Reframed differentiation away from generic self-hosting, model choice, memory, self-improvement, and multi-agent claims already established by current projects.
+- Added an honest answer to why Aether Many exists beside open agents and recorded the still-unsettled public license.
 
-### Largest issue and repair
+### Cycle 1: the primary action was below the first screen
 
-- The first mobile audit found that the open navigation did not fully cover the page underneath because the header's blur established a containing block for the fixed menu. The menu was changed to a full-height panel positioned from the bottom of the fixed header.
-- The mobile menu was then reopened at 390×844. Its links, background, close state and GitHub action rendered correctly. Selecting “Current state” closed the menu, changed the URL to `#status` and placed the current-state answer below the header.
+- At the default 1470×854 Chrome viewport, the first rewritten headline used four lines and pushed the GitHub action below the fold.
+- Shortened the headline to “AI agents you can keep,” reduced its maximum size, and reduced the hero's top padding.
+- The GitHub action, current-state link, release gap, and private-runtime panel then appeared in the first desktop screen.
 
-### Functional, responsive and accessibility checks
+### Cycle 2: navigation and mobile release copy broke
 
-- The runtime-map buttons changed the visible explanation for model providers, the core and stored artifacts.
-- The FAQ opened and exposed its answer through the native `details` control.
-- Keyboard focus reached the skip link first and Enter moved the URL to `#main`.
-- Mobile width was 390 CSS pixels and document scroll width was also 390, so there was no horizontal overflow. Desktop width and document scroll width both measured 1440 pixels.
-- The page loaded with no browser console warnings or errors after the final reload.
-- `index.html` and `404.html` passed `html-validate` with no errors.
-- The homepage, CSS, JavaScript, two SVG assets, not-found page and robots file all returned HTTP 200 from the local server.
-- The public GitHub repository, Yusuf Young site, sovereign AI thesis and Works Like Us site all returned HTTP 200 after redirects.
-- The not-found page rendered with a clear explanation and a working home link.
+- The longer desktop navigation labels collided. The navigation was reduced to the three decisions a visitor needs: why Aether, how it works, and current state.
+- At 390×844, the release eyebrow left “GitHub” stranded on a second line. It was shortened to “Free Community Edition · GitHub next” and rendered on one line.
+- The mobile width and document scroll width both measured 390 pixels after the repair, so there was no horizontal overflow.
 
-### Final copy, truth and challenge passes
+### Cycle 3: keyboard skip behavior was imprecise
 
-- Read the rendered page from top to bottom at desktop and mobile sizes. Every heading now states what the section helps the visitor understand; technical terms are explained in the body.
-- Kept the current private system, the planned public release and the long-term agent-force vision visibly separate.
-- Removed the need for invented customers, outcomes, prices, security claims, download promises, urgency or signup collection.
-- The cold review could identify the product, owner benefit, operating boundary, current proof, release gap and next action from the page alone.
-- A separate challenge pass focused on the strongest reasons to distrust the project: it added or retained direct answers about the missing installer, provider choice, Docker and Kubernetes, self-hosting limits and the boundary with Works Like Us. No further material website issue remained after the mobile-menu repair.
+- The skip link targeted the entire `main` element, which did not consistently move focus to the start of the content.
+- It now targets and focuses the main heading. From a fresh page entry, the first Tab focuses “Skip to the main content,” Enter moves focus to the hero heading, and the heading sits below the fixed navigation.
 
-The website is a verified initial hypothesis, not market validation. Real visitor behavior, GitHub follows, external installs and operator feedback remain unknown. The recommended name is also still reversible because neither domain has been purchased.
+### Functional, responsive, and accessibility checks
+
+- Verified the rendered page in Chrome at the default 1470×854 desktop viewport and a 390×844 mobile viewport, then reset Chrome to its default size.
+- The mobile navigation opened as a full-height panel, showed every link, closed after selecting “Current state,” and landed the section below the fixed header.
+- Runtime-map controls changed the visible explanation for model providers and stored artifacts.
+- The FAQ opened and exposed the free-release answer through the native `details` control.
+- The page has one `h1`, one `main`, one labeled navigation region, no unlabeled buttons, visible focus styling, reduced-motion handling, and no browser console errors in the final error check.
+- `index.html` and `404.html` passed `html-validate`; `script.js` passed Node's syntax check.
+- The homepage, CSS, JavaScript, both SVG assets, not-found page, and robots file returned HTTP 200 from the local server.
+- The public GitHub repository, Yusuf Young site, sovereign AI thesis, and Works Like Us site returned HTTP 200 after redirects.
+
+### Final rendered copy and challenge passes
+
+- Read every heading, paragraph, label, button, metadata description, FAQ answer, and error-page message as a cold visitor on desktop and mobile.
+- The page now distinguishes a verified private system, a planned free public edition, and a speculative long-term network without requiring project context.
+- Removed any implication that self-hosting automatically creates privacy or safety, that Aether invented open agents, that Community Edition can be installed, or that a public license has been chosen.
+- The final cold review can identify what the project is, why it exists beside current agents, what works, what does not exist, what the first public milestone is, and what to do next.
+- A subsequent technical-trust challenge found no remaining material website issue. Further changes were aesthetic alternatives rather than better-supported decisions.
+
+This is a verified initial website hypothesis, not market validation. Real visitor behavior, GitHub interest after code ships, external installs, operator feedback, the public license, and professional name clearance remain unknown.

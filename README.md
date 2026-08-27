@@ -1,7 +1,7 @@
 # Aether
 
 **Created:** 2026-08-22 by Yusuf Young
-**Status:** Active development. Building vision websites next.
+**Status:** Active development. Public website ready; Community Edition is next.
 
 ## The Guiding Star
 
@@ -74,8 +74,8 @@ Aether agents can:
 - The agent has tools, memory, skills, hooks, and autonomous operation
 - Multiple agents can cooperate (Claude Code, Codex, Aether)
 - Not yet published as a community tool for others to use
-- The initial public vision website is implemented in this repository under the recommended working brand **Aether Many**; it has been verified locally but is not published
-- `aethermany.com` and `aethermany.ai` were both offered for registration when checked on 2026-08-26; neither domain has been purchased, and the name has not received professional trademark clearance
+- The initial public website is implemented in this repository under the recommended working brand **Aether Many**; it has been compared with current popular agent projects, verified locally on desktop and mobile, and is not published
+- The official registries returned no domain record for `aethermany.com` or `aethermany.ai` when checked on 2026-08-26; neither domain has been purchased, registrar availability can change, and the name has not received professional trademark clearance
 
 ## Website Preview
 
@@ -89,11 +89,10 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 
 ## What Happens Next
 
-1. Build vision websites (specific product vision + ultimate vision + current state)
-2. Ship Aether CE as a public, usable community edition
-3. Onboard first external users
-4. Build Aether for Companies (the business)
-5. Scale to multi-agent cooperation
+1. Ship Aether CE as a public, usable community edition
+2. Onboard first external users
+3. Build Aether for Companies (the business)
+4. Scale to multi-agent cooperation
 
 ## Philosophy Source
 
