@@ -74,6 +74,18 @@ Aether agents can:
 - The agent has tools, memory, skills, hooks, and autonomous operation
 - Multiple agents can cooperate (Claude Code, Codex, Aether)
 - Not yet published as a community tool for others to use
+- The initial public vision website is implemented in this repository under the recommended working brand **Aether Many**; it has been verified locally but is not published
+- `aethermany.com` and `aethermany.ai` were both offered for registration when checked on 2026-08-26; neither domain has been purchased, and the name has not received professional trademark clearance
+
+## Website Preview
+
+Run the site from this directory so its links and assets behave as they will on a static host:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumptions, and verification are recorded in [`docs/WEBSITE-DECISIONS.md`](docs/WEBSITE-DECISIONS.md).
 
 ## What Happens Next
 
