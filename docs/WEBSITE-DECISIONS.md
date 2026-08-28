@@ -125,7 +125,7 @@ Yusuf’s six direct benefits exposed the largest weakness in the adaptation-fir
 
 Three new directions were compared:
 
-1. **The final outcome — selected:** “Aether becomes the agent you need.” Put adaptation, automatic learning, self-built abilities, other agents, layered protection, and goal-led change together immediately after the hero. This answers why the product matters before explaining how it works.
+1. **The final outcome — selected:** “Your Aether becomes the agent you need.” Put adaptation, automatic learning, self-built abilities, other agents, layered protection, and goal-led change together immediately after the hero. This answers why the product matters before explaining how it works.
 2. **The self-building mechanism:** “Aether learns what you need. Then it builds it.” This is specific and distinctive, but it makes the visitor begin with the mechanism rather than the larger result.
 3. **Security first:** “A powerful agent you can trust with real work.” This answers an important fear but overstates the confidence justified by an unaudited private system and weakens the main reason to follow Aether.
 
@@ -133,9 +133,9 @@ The selected direction keeps the working visual system but replaces the scattere
 
 ## Visitor journey and design system
 
-- Hero: “Aether becomes the agent you need,” the four central benefits, a visible goal-to-new-ability example, the GitHub action, and the private/public status in one screen.
-- Why Aether: state the central difference first, then keep all six promises together—adaptation, automatic learning, self-built abilities, work with other agents, layered data protection, and continued change around the owner’s goals.
-- Messaging: show how a person can ask Aether for help from WhatsApp, Discord, Telegram, or the web, using clearly illustrative everyday examples rather than implying that the unreleased connections work today.
+- Hero: “Your Aether becomes the agent you need,” the four central benefits, a visible goal-to-new-ability example, the GitHub action, and the private/public status in one screen.
+- Why your Aether: state the central difference first, then keep all six promises together—adaptation, automatic learning, self-built abilities, work with other agents, layered data protection, and continued change around the owner’s goals.
+- Messaging: show how a person can ask their Aether for help from WhatsApp, Discord, Telegram, or the web, using clearly illustrative everyday examples rather than implying that the unreleased connections work today.
 - Growth loop: show notice, learn, build, get help, and remember as a working, keyboard-operable explanation.
 - Identity: show why the small beginning should produce a different agent for every owner.
 - Safety: explain the part that grows, the part that cannot change, three real safeguards, and the current limits in ordinary language.
@@ -146,6 +146,16 @@ The selected direction keeps the working visual system but replaces the scattere
 The visual system retains deep green, warm paper, and a sharp chartreuse signal color. The mark is a bounded hexagonal system with six equal outside nodes and no dominant node. The new adaptation log, capability loop, layered boundary, and many-owner orbit make growth visible without copying the lobster, caduceus, container cat, terminal, or product-UI identities of the researched projects.
 
 ## Iteration and verification log
+
+### 2026-08-28 make the personal agent explicit
+
+- Replaced plain “Aether” with “your Aether” wherever the page means the visitor’s individual agent. This now appears in the hero, adaptation example, benefit section, messaging section, use cases, growth explanation, safety explanation, Q&A, dynamic growth text, page title, and social preview copy.
+- Kept “Aether Many” for the project, brand, development status, release, and name explanation. Kept “Aether” in the hairdresser message because the person is directly addressing the agent by name.
+- Changed both conversation speaker labels to “Your Aether,” including the proactive apartment update Yusuf annotated, so the examples clearly describe one agent shaped around one owner rather than a generic service.
+- Rechecked the local page at 1117×892 and 390×844. The longer desktop navigation fits, both conversation overlays remain readable, the phone first screen still shows the GitHub action and development message, the growth diagram label fits, and there is no horizontal overflow.
+- `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; `git diff --check` is clean; Lighthouse reports 100% for accessibility, best practices, and SEO.
+- Published the revision to the existing Cloudflare Pages project at `https://d0c18282.aether-many.pages.dev` and the canonical `.com`. The `.com`, `www`, deployment URL, and `20260828-2` JavaScript return HTTP 200; the custom missing page returns HTTP 404.
+- Rechecked the real `.com` at 1117×892 and 390×844. The personalized hero, navigation, conversation labels, page title, and responsive width match the validated local version. The browser was returned to the desktop homepage.
 
 ### 2026-08-28 everyday-help examples
 

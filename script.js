@@ -79,19 +79,19 @@ const growthStages = {
   reflect: {
     kicker: "Learn from the result",
     title: "It works out what would help.",
-    copy: "Aether can compare what happened and decide whether it needs better knowledge, a clearer instruction, or a new ability.",
+    copy: "Your Aether can compare what happened and decide whether it needs better knowledge, a clearer instruction, or a new ability.",
     signals: ["RESULT", "PATTERN", "NEED"],
   },
   build: {
     kicker: "Build what is missing",
     title: "It adds or improves an ability.",
-    copy: "Aether can create a tool, improve how it works, or change what it remembers. The protected part stays unchanged.",
+    copy: "Your Aether can create a tool, improve how it works, or change what it remembers. The protected part stays unchanged.",
     signals: ["TOOL", "METHOD", "MEMORY"],
   },
   collaborate: {
     kicker: "Bring in other agents",
     title: "It gets help when the goal is bigger.",
-    copy: "Aether can give focused parts of the work to other agents, compare what they return, and combine the best parts.",
+    copy: "Your Aether can give focused parts of the work to other agents, compare what they return, and combine the best parts.",
     signals: ["RESEARCHER", "BUILDER", "REVIEWER"],
   },
   keep: {
