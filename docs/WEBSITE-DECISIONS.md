@@ -134,11 +134,11 @@ The selected direction keeps the working visual system but replaces the scattere
 ## Visitor journey and design system
 
 - Hero: “Aether becomes the agent you need,” the four central benefits, a visible goal-to-new-ability example, the GitHub action, and the private/public status in one screen.
-- Benefits: state all six promises together—adaptation, automatic learning, self-built abilities, work with other agents, layered data protection, and continued change around the owner’s goals.
+- Why Aether: state the central difference first, then keep all six promises together—adaptation, automatic learning, self-built abilities, work with other agents, layered data protection, and continued change around the owner’s goals.
+- Messaging: show how a person can ask Aether for help from WhatsApp, Discord, Telegram, or the web, using clearly illustrative everyday examples rather than implying that the unreleased connections work today.
 - Growth loop: show notice, learn, build, get help, and remember as a working, keyboard-operable explanation.
 - Identity: show why the small beginning should produce a different agent for every owner.
 - Safety: explain the part that grows, the part that cannot change, three real safeguards, and the current limits in ordinary language.
-- Current state: separate the running private proof from the unreleased free public version.
 - Mission: explain “Many” as many independently shaped intelligences rather than one dominant blueprint.
 - FAQ: answer installation, learning, category overlap, privacy, release terms, model choice, and the name.
 - Final action: follow the build on GitHub; no form, fake install, account, or invented community proof.
@@ -200,6 +200,18 @@ The visual system retains deep green, warm paper, and a sharp chartreuse signal 
 - `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; internal links resolve; local assets and both external actions return HTTP 200; Lighthouse reports 100% for accessibility, best practices, and SEO.
 - Published the revision to the existing Cloudflare Pages project at `https://0f83ec03.aether-many.pages.dev` and the canonical `.com`. The `.com`, `www`, deployment URL, `20260827-4` CSS and JavaScript, and sitemap return HTTP 200; the custom missing page returns HTTP 404.
 - Rechecked the real `.com` at 1117×892 and 390×844. The first-screen “Coming soon” message, everyday morning-brief example, shorter navigation, removed status section, phone menu, and responsive width match the validated local page. The removed negative phrases do not appear in the live HTML.
+
+### 2026-08-27 owner-annotation revision: name Aether and show everyday access
+
+- Replaced every “IT …” label in the hero example with “AETHER …” so the sequence cannot be mistaken for a company’s IT department.
+- Made “Why Aether is different” the first section after the hero. Its heading now gives the comparison directly: most agents arrive with a set of features; Aether is meant to build itself around its owner.
+- Added a messaging section for WhatsApp, Discord, Telegram, and the web. Because those public connections are not released, the section labels them as coming with the version in development.
+- Generated two original photorealistic commuter scenes with the built-in image generator. The images contain no fake interface text; the readable conversations are accessible HTML overlays and are visibly labeled as illustrative examples.
+- Used the owner’s hairdresser-and-calendar request as the main real-life scenario, then added a second Discord example that shows Aether asking another agent for help and returning the answer to the same conversation.
+- Rechecked the local page at 1117×892 and 390×844. The five-link desktop navigation fits, the phone menu opens and closes correctly, the new anchor lands below the fixed header, both conversations remain readable, and the document width matches the viewport at both sizes.
+- `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; `git diff --check` is clean; Lighthouse again reports 100% for accessibility, best practices, and SEO.
+- Published the revision to the existing Cloudflare Pages project at `https://4880a11e.aether-many.pages.dev` and the canonical `.com`. The `.com`, `www`, deployment URL, `20260827-5` CSS and JavaScript, both new images, and sitemap return HTTP 200; the custom missing page returns HTTP 404.
+- Rechecked the real `.com` at 1117×892 and 390×844. The Aether-named hero labels, why-different section, messaging examples, new navigation link, phone menu, image loading, and responsive width match the validated local page. The live browser was returned to the desktop homepage.
 
 ### 2026-08-27 adaptation-first remake
 
