@@ -1,8 +1,16 @@
 const header = document.querySelector("[data-header]");
 const menuButton = document.querySelector("[data-menu-button]");
 const navigation = document.querySelector("[data-nav]");
-const runtimeMap = document.querySelector("[data-runtime-map]");
-const mapExplanation = document.querySelector("[data-map-explanation]");
+const growthExplorer = document.querySelector("[data-growth-explorer]");
+const skipLink = document.querySelector(".skip-link");
+const heroTitle = document.querySelector("#hero-title");
+
+skipLink?.addEventListener("click", (event) => {
+  event.preventDefault();
+  heroTitle?.scrollIntoView({ block: "start" });
+  heroTitle?.focus({ preventScroll: true });
+  window.history.replaceState(null, "", "#hero-title");
+});
 
 const closeMenu = () => {
   if (!menuButton || !navigation) return;
@@ -22,6 +30,13 @@ navigation?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeMenu();
+    menuButton?.focus();
+  }
+});
+
 window.addEventListener("resize", () => {
   if (window.innerWidth > 980) closeMenu();
 });
@@ -33,6 +48,7 @@ const setHeaderState = () => {
 setHeaderState();
 window.addEventListener("scroll", setHeaderState, { passive: true });
 
+document.documentElement.classList.add("has-reveal");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealItems = document.querySelectorAll(".reveal");
 
@@ -47,36 +63,87 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
         observer.unobserve(entry.target);
       });
     },
-    { rootMargin: "0px 0px -8%", threshold: 0.08 },
+    { rootMargin: "0px 0px -7%", threshold: 0.08 },
   );
 
   revealItems.forEach((item) => revealObserver.observe(item));
 }
 
-const explanations = {
-  providers: {
-    label: "Replaceable intelligence",
-    text: "Model providers sit outside the core. The owner can change an API or add a local model without moving the agent’s whole operating record.",
+const growthStages = {
+  observe: {
+    kicker: "Notice the real work",
+    title: "It sees where the job slows down.",
+    copy: "Structured logs, outcomes, corrections, and recurring tasks reveal what the agent still cannot do well.",
+    signals: ["WORK", "FEEDBACK", "OUTCOME"],
   },
-  core: {
-    label: "Stable owner-run layer",
-    text: "The runtime is the stable layer on the owner’s server. Models and optional capabilities can change around it.",
+  reflect: {
+    kicker: "Find the reusable lesson",
+    title: "It asks what should change next.",
+    copy: "Instead of patching one mistake, Aether can compare attempts and look for the missing knowledge, instruction, or capability behind them.",
+    signals: ["LOGS", "PATTERN", "GAP"],
   },
-  artifacts: {
-    label: "Inspectable work",
-    text: "Tasks, logs, state, and skills remain visible so the owner can review what the agent did and what changed.",
+  build: {
+    kicker: "Create the missing ability",
+    title: "It changes the part it owns.",
+    copy: "Aether can write or revise tools, skills, memory, and workflows in its workspace while the protected foundation remains unchanged.",
+    signals: ["TOOL", "SKILL", "WORKFLOW"],
+  },
+  collaborate: {
+    kicker: "Use the right minds",
+    title: "It forms a team around the problem.",
+    copy: "For larger goals, Aether can give focused parts to other agents, compare their work, and combine the useful results.",
+    signals: ["RESEARCHER", "BUILDER", "REVIEWER"],
+  },
+  keep: {
+    kicker: "Make progress compound",
+    title: "The next attempt starts stronger.",
+    copy: "Useful preferences, methods, and capabilities remain available after the conversation ends, so progress can accumulate over time.",
+    signals: ["MEMORY", "PREFERENCE", "CAPABILITY"],
   },
 };
 
-runtimeMap?.querySelectorAll("[data-map-target]").forEach((control) => {
-  const activate = () => {
-    const target = control.dataset.mapTarget;
-    const explanation = explanations[target];
-    if (!explanation || !mapExplanation) return;
-    runtimeMap.dataset.active = target;
-    mapExplanation.innerHTML = `<span>${explanation.label}</span>${explanation.text}`;
-  };
+const growthTabs = Array.from(growthExplorer?.querySelectorAll("[data-growth-step]") ?? []);
+const growthPanel = growthExplorer?.querySelector("[role='tabpanel']");
+const stageKicker = growthExplorer?.querySelector("[data-stage-kicker]");
+const stageTitle = growthExplorer?.querySelector("[data-stage-title]");
+const stageCopy = growthExplorer?.querySelector("[data-stage-copy]");
+const stageSignals = Array.from(growthExplorer?.querySelectorAll("[data-stage-signal] span") ?? []);
 
-  control.addEventListener("click", activate);
-  control.addEventListener("focus", activate);
+const activateGrowthStage = (tab, moveFocus = false) => {
+  const stageName = tab.dataset.growthStep;
+  const stage = growthStages[stageName];
+  if (!stage || !growthExplorer || !growthPanel || !stageKicker || !stageTitle || !stageCopy) return;
+
+  growthTabs.forEach((item) => {
+    const active = item === tab;
+    item.setAttribute("aria-selected", String(active));
+    item.tabIndex = active ? 0 : -1;
+  });
+
+  growthExplorer.dataset.active = stageName;
+  growthPanel.setAttribute("aria-labelledby", tab.id);
+  stageKicker.textContent = stage.kicker;
+  stageTitle.textContent = stage.title;
+  stageCopy.textContent = stage.copy;
+  stageSignals.forEach((signal, index) => {
+    signal.textContent = stage.signals[index] ?? "";
+  });
+
+  if (moveFocus) tab.focus();
+};
+
+growthTabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => activateGrowthStage(tab));
+  tab.addEventListener("keydown", (event) => {
+    let nextIndex = null;
+    if (event.key === "ArrowRight" || event.key === "ArrowDown") nextIndex = (index + 1) % growthTabs.length;
+    if (event.key === "ArrowLeft" || event.key === "ArrowUp") nextIndex = (index - 1 + growthTabs.length) % growthTabs.length;
+    if (event.key === "Home") nextIndex = 0;
+    if (event.key === "End") nextIndex = growthTabs.length - 1;
+    if (nextIndex === null) return;
+    event.preventDefault();
+    activateGrowthStage(growthTabs[nextIndex], true);
+  });
 });
+
+if (growthTabs[0]) activateGrowthStage(growthTabs[0]);
