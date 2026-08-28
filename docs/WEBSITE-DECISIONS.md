@@ -147,6 +147,20 @@ The visual system retains deep green, warm paper, and a sharp chartreuse signal 
 
 ## Iteration and verification log
 
+### 2026-08-28 everyday-help examples
+
+- Added a section after the messaging examples that answers a practical visitor question: “What could your Aether take off your plate?” It shows six possible uses across personal life, work, and free time.
+- Kept the section as future-facing illustrative examples because there is no supported evidence that public users already use Aether. It does not present the scenes as customer stories.
+- Reframed “best friend who can keep your biggest secrets because nothing is stored in the cloud” as a private thinking companion that remembers context and uses built-in protections. The page does not make an absolute storage or secrecy guarantee.
+- Kept user control explicit for consequential actions: email replies wait for approval before sending, and weekend bookings and invitations happen with approval.
+- Added six examples: talk through difficult decisions, keep long-term goals moving, draft inbox replies for approval, prepare requested work before the owner arrives, filter online sources into goal-relevant updates, and plan a weekend with friends.
+- Generated three original 4:3 photorealistic scenes with the built-in image generator and saved optimized WebP assets as `aether-private-thinking.webp`, `aether-work-ready.webp`, and `aether-weekend-plans.webp`. The images contain no generated interface text; each is visibly labeled as an illustrative scene in accessible HTML.
+- Prompt set: a woman calmly thinking with a notebook at a lived-in kitchen table; a professional arriving to review an already-prepared report; and three friends enjoying a pottery workshop that was coordinated for them. Each prompt requested candid editorial photography, the Aether green/cream/chartreuse palette, natural textures, no logos or readable text, and space for an HTML label.
+- Rechecked the local page at 1117×892 and 390×844. The three desktop cards align, the phone cards remain readable, all images load at their native 4:3 size, and the document width matches the viewport at both sizes.
+- `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; `git diff --check` is clean; Lighthouse reports 100% for accessibility, best practices, and SEO.
+- Published the revision to the existing Cloudflare Pages project at `https://ce0ad889.aether-many.pages.dev` and the canonical `.com`. The `.com`, `www`, deployment URL, `20260828-1` CSS and JavaScript, all three new images, and sitemap return HTTP 200; the custom missing page returns HTTP 404.
+- Rechecked the real `.com` at 1117×892 and 390×844. All six examples and three images are present with no horizontal overflow. The browser was returned to the desktop homepage.
+
 ### 2026-08-27 direct-benefit revision
 
 - Re-ran the Business Builder method after Yusuf identified the missing benefit hierarchy. The factual inventory, current competitor review, visitor roles, visual system, live deployment, and product state remained current; the message hierarchy was reopened.
