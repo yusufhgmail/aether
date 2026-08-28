@@ -187,6 +187,20 @@ The visual system retains deep green, warm paper, and a sharp chartreuse signal 
 - Rechecked the real domain at 1117×892 and 390×844. The desktop and phone first screens, phone menu, benefits sequence, current-state warning, privacy answer, cached assets, and responsive width all match the validated local version.
 - Returned the live site to the normal desktop viewport after phone testing. No further copy change survived the final cold-visitor and truth challenge as a material improvement.
 
+### 2026-08-27 owner-annotation revision: sell the vision
+
+- Yusuf’s eight page annotations settled the next direction: the site should sell the vision and state that Aether is “coming soon,” not devote a large section to what has not been built.
+- Removed the complete private-versus-public status section and its navigation link. Replaced the first-screen status line with “Coming soon. Aether Many is under development,” and changed the small brand badge to “In development.”
+- Replaced the software-release example with an everyday goal: organize messages, calendar items, and tasks into a morning brief that learns the owner’s priorities and can ask a research agent for missing details.
+- Shortened the safety headline to “It can change itself.” The diagrams still show the protected part that self-improvement cannot rewrite.
+- Changed the benefit-level privacy message to the direct promise that Aether has built-in protections to keep private information private. Kept the specific mechanisms beside it and moved the unavoidable connected-service limit into the privacy Q&A answer.
+- Replaced the comparison headline with “Your Aether becomes an extension of you—unique to you,” the FAQ heading with “Q&A,” and the final heading and button with “Follow us on GitHub.”
+- Rechecked the revised local page at 1117×892 and 390×844. The new example fits, the coming-soon message is visible in the phone first screen, the status section is absent, the three-link phone menu covers the page, the identity message and GitHub ending fit without horizontal overflow, and the current action remains clear.
+- A fresh vision-page challenge found one remaining main-flow risk disclaimer. Removed it from the sales story and kept the connected-service and unaudited-security limits inside the privacy Q&A answer.
+- `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; internal links resolve; local assets and both external actions return HTTP 200; Lighthouse reports 100% for accessibility, best practices, and SEO.
+- Published the revision to the existing Cloudflare Pages project at `https://0f83ec03.aether-many.pages.dev` and the canonical `.com`. The `.com`, `www`, deployment URL, `20260827-4` CSS and JavaScript, and sitemap return HTTP 200; the custom missing page returns HTTP 404.
+- Rechecked the real `.com` at 1117×892 and 390×844. The first-screen “Coming soon” message, everyday morning-brief example, shorter navigation, removed status section, phone menu, and responsive width match the validated local page. The removed negative phrases do not appear in the live HTML.
+
 ### 2026-08-27 adaptation-first remake
 
 - Re-read the mission, both recorded vision documents, the current VPS architecture and boundary documentation, and the March positioning record before rewriting the page.
