@@ -71,34 +71,34 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
 
 const growthStages = {
   observe: {
-    kicker: "Notice the real work",
+    kicker: "Notice what is missing",
     title: "It sees where the job slows down.",
-    copy: "Structured logs, outcomes, corrections, and recurring tasks reveal what the agent still cannot do well.",
+    copy: "Its work, your corrections, and repeated problems show what it still cannot do well.",
     signals: ["WORK", "FEEDBACK", "OUTCOME"],
   },
   reflect: {
-    kicker: "Find the reusable lesson",
-    title: "It asks what should change next.",
-    copy: "Instead of patching one mistake, Aether can compare attempts and look for the missing knowledge, instruction, or capability behind them.",
-    signals: ["LOGS", "PATTERN", "GAP"],
+    kicker: "Learn from the result",
+    title: "It works out what would help.",
+    copy: "Aether can compare what happened and decide whether it needs better knowledge, a clearer instruction, or a new ability.",
+    signals: ["RESULT", "PATTERN", "NEED"],
   },
   build: {
-    kicker: "Create the missing ability",
-    title: "It changes the part it owns.",
-    copy: "Aether can write or revise tools, skills, memory, and workflows in its workspace while the protected foundation remains unchanged.",
-    signals: ["TOOL", "SKILL", "WORKFLOW"],
+    kicker: "Build what is missing",
+    title: "It adds or improves an ability.",
+    copy: "Aether can create a tool, improve how it works, or change what it remembers. The protected part stays unchanged.",
+    signals: ["TOOL", "METHOD", "MEMORY"],
   },
   collaborate: {
-    kicker: "Use the right minds",
-    title: "It forms a team around the problem.",
-    copy: "For larger goals, Aether can give focused parts to other agents, compare their work, and combine the useful results.",
+    kicker: "Bring in other agents",
+    title: "It gets help when the goal is bigger.",
+    copy: "Aether can give focused parts of the work to other agents, compare what they return, and combine the best parts.",
     signals: ["RESEARCHER", "BUILDER", "REVIEWER"],
   },
   keep: {
-    kicker: "Make progress compound",
-    title: "The next attempt starts stronger.",
-    copy: "Useful preferences, methods, and capabilities remain available after the conversation ends, so progress can accumulate over time.",
-    signals: ["MEMORY", "PREFERENCE", "CAPABILITY"],
+    kicker: "Keep what worked",
+    title: "The next job starts stronger.",
+    copy: "Useful preferences, ways of working, and new abilities stay available after the conversation ends.",
+    signals: ["MEMORY", "PREFERENCE", "ABILITY"],
   },
 };
 

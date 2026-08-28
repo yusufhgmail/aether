@@ -608,6 +608,69 @@ h3 {
   background: var(--white);
 }
 
+.direct-benefit-grid {
+  display: grid;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.direct-benefit-card {
+  min-height: 310px;
+  padding: clamp(28px, 3.5vw, 44px);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--white);
+}
+
+.direct-benefit-card.direct-benefit-featured {
+  background: var(--signal);
+}
+
+.direct-benefit-number {
+  display: inline-block;
+  margin-bottom: 66px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+}
+
+.direct-benefit-card h3 {
+  max-width: 14ch;
+  margin-bottom: 16px;
+}
+
+.direct-benefit-card p {
+  max-width: 390px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.91rem;
+}
+
+.direct-benefit-featured p,
+.direct-benefit-featured .direct-benefit-number {
+  color: #34443d;
+}
+
+.benefit-safety-note {
+  display: grid;
+  align-items: start;
+  gap: 20px;
+  margin: 24px 0 0;
+  padding: 25px 28px;
+  border-left: 4px solid var(--signal-strong);
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.87rem;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+.benefit-safety-note strong {
+  color: var(--ink);
+  line-height: 1.45;
+}
+
 .problem-intro h2 {
   max-width: 15ch;
 }
@@ -1550,6 +1613,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .direct-benefit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .fear-card {
     min-height: auto;
   }
@@ -1750,6 +1817,19 @@ h3 {
 
   .benefit-grid {
     grid-template-columns: 1fr;
+  }
+
+  .direct-benefit-grid,
+  .benefit-safety-note {
+    grid-template-columns: 1fr;
+  }
+
+  .direct-benefit-card {
+    min-height: auto;
+  }
+
+  .direct-benefit-number {
+    margin-bottom: 42px;
   }
 
   .benefit-card {

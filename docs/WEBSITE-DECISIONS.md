@@ -103,7 +103,7 @@ Alternatives reconsidered:
 
 Yusuf bought `aethermany.com` through GoDaddy on 2026-08-27. The purchase makes Aether Many the public working brand, but it does not replace professional trademark clearance.
 
-## Strategic directions compared
+## Earlier strategic directions for the adaptation-first remake
 
 ### 1. The agent that becomes yours — selected
 
@@ -119,15 +119,26 @@ Lead with the root-owned kernel, changeable workspace, outbound checkpoint, and 
 
 The selected direction uses direction 2 to show that the growing agent does useful work and direction 3 to answer the fear created by self-improvement. The headline and first visual stay about the owner’s outcome; the technical boundaries then earn belief without claiming an install, adoption, audit, or guarantee that does not exist.
 
+## Current direction: put the six benefits in the open
+
+Yusuf’s six direct benefits exposed the largest weakness in the adaptation-first page: the ideas were present, but they were spread across the hero, interaction, benefits, identity, safety, and FAQ. The page made visitors reconstruct the central promise themselves.
+
+Three new directions were compared:
+
+1. **The final outcome — selected:** “Aether becomes the agent you need.” Put adaptation, automatic learning, self-built abilities, other agents, layered protection, and goal-led change together immediately after the hero. This answers why the product matters before explaining how it works.
+2. **The self-building mechanism:** “Aether learns what you need. Then it builds it.” This is specific and distinctive, but it makes the visitor begin with the mechanism rather than the larger result.
+3. **Security first:** “A powerful agent you can trust with real work.” This answers an important fear but overstates the confidence justified by an unaudited private system and weakens the main reason to follow Aether.
+
+The selected direction keeps the working visual system but replaces the scattered, indirect language with Yusuf’s benefit hierarchy. It says “abilities” instead of “functionalities,” keeps all six benefits together, and places the necessary privacy qualification directly beside the privacy benefit.
+
 ## Visitor journey and design system
 
-- Hero: “It doesn’t come finished. It becomes yours,” a visible adaptation log, the GitHub action, and the private/public status in one screen.
-- Fear: name the burden of configuring every workflow, repeating personal context, and widening opaque access.
-- Adaptation loop: show observe, reflect, build, collaborate, and keep as a working, keyboard-operable explanation.
-- Benefits: translate the loop into fewer repeated corrections, less dependence on a product roadmap, agent teamwork, and progress between conversations.
+- Hero: “Aether becomes the agent you need,” the four central benefits, a visible goal-to-new-ability example, the GitHub action, and the private/public status in one screen.
+- Benefits: state all six promises together—adaptation, automatic learning, self-built abilities, work with other agents, layered data protection, and continued change around the owner’s goals.
+- Growth loop: show notice, learn, build, get help, and remember as a working, keyboard-operable explanation.
 - Identity: show why the small beginning should produce a different agent for every owner.
-- Safety: explain the enforced changeable-space/protected-foundation split, real boundary mechanisms, and current limits.
-- Current state: acknowledge that OpenClaw and Hermes are mature now, then separate the running private proof from the unreleased Community Edition.
+- Safety: explain the part that grows, the part that cannot change, three real safeguards, and the current limits in ordinary language.
+- Current state: separate the running private proof from the unreleased free public version.
 - Mission: explain “Many” as many independently shaped intelligences rather than one dominant blueprint.
 - FAQ: answer installation, learning, category overlap, privacy, release terms, model choice, and the name.
 - Final action: follow the build on GitHub; no form, fake install, account, or invented community proof.
@@ -135,6 +146,46 @@ The selected direction uses direction 2 to show that the growing agent does usef
 The visual system retains deep green, warm paper, and a sharp chartreuse signal color. The mark is a bounded hexagonal system with six equal outside nodes and no dominant node. The new adaptation log, capability loop, layered boundary, and many-owner orbit make growth visible without copying the lobster, caduceus, container cat, terminal, or product-UI identities of the researched projects.
 
 ## Iteration and verification log
+
+### 2026-08-27 direct-benefit revision
+
+- Re-ran the Business Builder method after Yusuf identified the missing benefit hierarchy. The factual inventory, current competitor review, visitor roles, visual system, live deployment, and product state remained current; the message hierarchy was reopened.
+- Replaced the hero with the final owner outcome and placed all six benefits together in the next section. Removed the separate fear cards and the second, weaker benefit grid because they forced visitors to combine scattered ideas.
+- Rewrote visible mechanisms in ordinary language: “root-owned kernel” became “the protected part,” “outbound boundary” became “checks before data leaves,” and “privileged changes” became “powerful changes.”
+- Kept the privacy limit beside the privacy benefit. The site promises layered protections, not that connected models and tools can never send or expose data.
+
+### Direct-benefit cycle 1: the benefits were still scattered
+
+- The previous page required visitors to move through several sections before finding adaptation, learning, new abilities, collaboration, security, and changing around goals.
+- Consolidated the six benefits into one numbered grid directly after the hero. Desktop shows all six at once; mobile presents them as one uninterrupted sequence.
+
+### Direct-benefit cycle 2: technical language weakened the promise
+
+- A fresh copy pass found public phrases such as “root-owned,” “outbound,” “privileged,” “runtime,” “workspace,” and “proactive wakeups.” They were accurate but made the visitor translate architecture before understanding the benefit.
+- Removed them from the main flow. The FAQ retains the few technical distinctions needed for an honest comparison without making them the page’s voice.
+
+### Direct-benefit cycle 3: security needed a clear promise and a clear limit
+
+- “Strong security protections in multiple layers” is supported by the changeable/protected split, action records, transfer checks, reviewed server changes, and recovery route.
+- “It will not share your sensitive data” is not supportable as a guarantee because connected models and tools can still send data away and the system is unaudited. The page now states the benefit strongly, then puts that limit immediately underneath it.
+
+### Direct-benefit final local review
+
+- At the normal 1117×892 app-browser viewport, the hero states the final outcome, the four central benefits, the GitHub action, and the exact private/public status without horizontal overflow.
+- At 390×844, the primary action and public-release warning stay in the first screen. The six benefits read as one sequence, the menu covers the page, and choosing a section closes the menu and restores scrolling.
+- The growth tabs leave exactly one selected state and replace the visible explanation. The privacy FAQ opens to the direct “No” answer and the current limits.
+- `index.html` and `404.html` pass `html-validate`; `script.js` passes Node’s syntax check; internal links resolve; all six required benefit headings are present; local page assets and both external actions return HTTP 200.
+- Lighthouse reports 100% for accessibility, best practices, and SEO after the footer logo’s spoken label was changed to include its visible “Aether Many” text.
+- A final cold read can say what Aether is, repeat all six benefits, distinguish the running private system from the unreleased public version, explain the basic safety split, understand why “Many” is in the name, and know that GitHub is the only current action.
+- A subsequent claim challenge found no unsupported privacy guarantee, install claim, public-security claim, license claim, adoption claim, or promise that the public version already proves the private system’s behavior.
+
+### Direct-benefit production verification
+
+- Published the validated static source to the existing Cloudflare Pages project without changing the GoDaddy registration or custom-domain setup. The deployment is available at `https://7fda2e72.aether-many.pages.dev` and through the canonical `.com`.
+- `https://aethermany.com/`, `https://www.aethermany.com/`, the deployment URL, versioned CSS and JavaScript, logo, and sitemap return HTTP 200. A missing route returns HTTP 404 with the revised custom error page.
+- The live HTML contains the new headline, all six direct benefit headings, the privacy limit, and the `20260827-3` asset version.
+- Rechecked the real domain at 1117×892 and 390×844. The desktop and phone first screens, phone menu, benefits sequence, current-state warning, privacy answer, cached assets, and responsive width all match the validated local version.
+- Returned the live site to the normal desktop viewport after phone testing. No further copy change survived the final cold-visitor and truth challenge as a material improvement.
 
 ### 2026-08-27 adaptation-first remake
 
