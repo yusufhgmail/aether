@@ -52,9 +52,34 @@ When AI reaches an autonomy tipping point, hyper-competition will follow. Withou
 - **Git as operational ledger:** the working directory is the state store. Git makes changes auditable and recoverable.
 - **No harm-glorification:** the project is about resilience, ownership, and repair.
 
+## The Thesis: The UI of the Future Is AI
+
+The next interface layer is not a dashboard, an app, or a portal. It is a conversation with an AI that does things for you. It is proactive, owned, trusted, and portable. It learns about you and presents information the way you need it. The interface is flexible: chat in any channel, visual presentation layer, voice layer.
+
+This is what Aether is. The core thesis is general: the UI of the future is owned, sovereign AI that acts for you. Specific adaptations of that thesis serve specific audiences.
+
+## Aether for CEOs (Commercial Arm)
+
+The first commercial adaptation of Aether targets SMB CEOs. Their problem: too many things on their plate, too much to do, no overview.
+
+**What it is:** Aether CE pre-packaged as a complete AI operating system for a CEO. Same engine, different package. Ships with:
+- Dashboard / visual presentation layer
+- Pre-built connectors (email, calendar, WhatsApp, messaging)
+- Proactive monitoring and briefing capabilities
+- Task management and follow-up tracking
+- Safeguards (approval gates, outbound filters)
+- Templates for common CEO workflows
+- Support and onboarding
+
+**How it's delivered:** Installed on a VPS the client owns. Runs on any model. Fully portable. They own the data and the harness. It is literally their most sensitive business asset, and it is fully under their control.
+
+**Why on-prem finally makes sense:** This is not a CRM or a chatbot. It is the CEO's operational brain: their inbox, their decisions, their relationships, their strategy. No CEO should host that on someone else's cloud, subject to model changes, price hikes, or data access by a provider.
+
+**Relationship to Aether CE:** Aether CE stays minimal and open source. Aether for CEOs is a branch: the same codebase pre-loaded with plugins, instructions, dashboard, and integrations. The community edition feeds the commercial arm; the commercial arm funds the community.
+
 ## Aether for Companies
 
-The path to adoption: bring self-owned agents into real company workflows, then scale out to multi-agent collaboration as the default unit of software.
+The broader path to adoption: bring self-owned agents into real company workflows, then scale out to multi-agent collaboration as the default unit of software.
 
 Aether agents can:
 - Run company operations (CRM, support, analytics, marketing)
@@ -93,8 +118,9 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 
 1. Ship Aether CE as a public, usable community edition
 2. Onboard first external users
-3. Build Aether for Companies (the business)
-4. Scale to multi-agent cooperation
+3. Build Aether for CEOs (the first commercial arm)
+4. Scale to Aether for Companies (multi-agent cooperation)
+5. Scale to multi-agent cooperation
 
 ## Philosophy Source
 
