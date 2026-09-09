@@ -62,7 +62,7 @@ This is what Aether is. The core thesis is general: the UI of the future is owne
 
 The first commercial adaptation of Aether targets SMB CEOs. Their problem: too many things on their plate, too much to do, no overview.
 
-**What it is:** Aether CE pre-packaged as a complete AI operating system for a CEO. Same engine, different package. Ships with:
+**What it is:** Aether as the CEO's first AI employee. Pre-hired and pre-trained: the same engine, onboarded for the role from day one. Ships with:
 - Dashboard / visual presentation layer
 - Pre-built connectors (email, calendar, WhatsApp, messaging)
 - Proactive monitoring and briefing capabilities
@@ -71,9 +71,13 @@ The first commercial adaptation of Aether targets SMB CEOs. Their problem: too m
 - Templates for common CEO workflows
 - Support and onboarding
 
+**The employee model:** Every Aether is an employee that works for you. It talks, it learns your procedures, it takes on more responsibility as you trust it. Aether for CEOs is that employee, pre-built for the executive role. Aether CE is the raw engine for builders who want to hire and train their own. Aether for Companies scales the same model to a workforce: an agent force where the first employee hires the next one.
+
 **How it's delivered:** Installed on a VPS the client owns. Runs on any model. Fully portable. They own the data and the harness. It is literally their most sensitive business asset, and it is fully under their control.
 
-**Why on-prem finally makes sense:** This is not a CRM or a chatbot. It is the CEO's operational brain: their inbox, their decisions, their relationships, their strategy. No CEO should host that on someone else's cloud, subject to model changes, price hikes, or data access by a provider.
+**Why on-prem finally makes sense:** This is not a CRM or a chatbot. It is an executive employee that never forgets, never sleeps, and never leaves with the knowledge: their inbox, their decisions, their relationships, their strategy. No CEO should host that on someone else's cloud, subject to model changes, price hikes, or data access by a provider.
+
+**What we sell:** The systems in which agents collaborate with each other, and simple installation interfaces. The engine is open source (Aether CE). The commercial value is the role-ready packaging, the collaboration layer, and the support.
 
 **Relationship to Aether CE:** Aether CE stays minimal and open source. Aether for CEOs is a branch: the same codebase pre-loaded with plugins, instructions, dashboard, and integrations. The community edition feeds the commercial arm; the commercial arm funds the community.
 
@@ -117,10 +121,9 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 ## What Happens Next
 
 1. Ship Aether CE as a public, usable community edition
-2. Onboard first external users
-3. Build Aether for CEOs (the first commercial arm)
-4. Scale to Aether for Companies (multi-agent cooperation)
-5. Scale to multi-agent cooperation
+2. Onboard first external users (builders hiring their own employee)
+3. Build Aether for CEOs (the first commercial arm: the pre-hired executive employee)
+4. Scale to Aether for Companies (one employee to a workforce, multi-agent cooperation)
 
 ## Philosophy Source
 
