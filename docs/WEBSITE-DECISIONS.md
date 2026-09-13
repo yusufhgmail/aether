@@ -8,6 +8,12 @@
 
 **Scope:** English vision and pre-release website, responsive implementation, current-category research, naming recommendation, publication, and domain connection. Email collection, analytics, account creation, and a product release are outside scope.
 
+## Approved headline follow-up · 12 September 2026
+
+Yusuf approved “Get more done with an AI agent that’s yours to keep.” and explicitly requested publication. The headline, page title, Open Graph text, and GitHub opening now carry that wording, putting productivity and lasting ownership in the same promise. The existing support copy, layout, styling, and remaining six approved sections are unchanged.
+
+Checked the staged page at 1280px desktop and 390 × 844 phone widths: the longer headline remains readable, the primary action and development status fit on the phone’s first screen, and there is no horizontal overflow or browser warning/error. This focused copy change reuses the completed page and interaction checks below; no new performance or ownership guarantee was added.
+
 ## Approved sovereignty update · 12 September 2026
 
 Yusuf approved all seven comparisons and then explicitly asked to update the website. Applied the approved opening, six-benefit group, ownership section, everyday examples, editions, learning copy, protection explanation, mission, Q&A, and closing action. The opening now names an AI agent and the work it takes off the owner’s plate; ownership runs through the page as the reason to trust it with more. The existing visual design, illustrations, navigation, edition order, and GitHub action remain.
@@ -55,7 +61,7 @@ Earlier sections below retain historical research and implementation context; th
 
 ### Untested hypotheses
 
-- The approved headline, “Your AI agent. Less on your plate.”, will make useful delegation immediately understandable; ownership and adaptation will give the intended audience a reason to choose Aether. Conversion performance is unmeasured.
+- The approved headline, “Get more done with an AI agent that’s yours to keep.”, will make useful delegation immediately understandable; ownership and adaptation will give the intended audience a reason to choose Aether. Conversion performance is unmeasured.
 - An OpenClaw or Hermes user will care enough about bottom-up capability growth above a protected foundation to follow an unreleased alternative.
 - Showing the adaptation loop before the architecture will make the user benefit clear without implying that Community Edition can be installed today.
 - “Aether Many” will be understood as one Aether project built for many independent owners, rather than as an awkward extension or a separate product.

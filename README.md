@@ -5,7 +5,7 @@
 
 ## The Guiding Star
 
-Your AI agent. Less on your plate.
+Get more done with an AI agent that’s yours to keep.
 
 Give Aether a goal. It remembers the details, follows through on the next steps, and builds the abilities it needs—around the way you work. Yours to shape. Yours to run. Built to stay yours.
 
