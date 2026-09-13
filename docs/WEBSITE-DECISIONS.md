@@ -1,6 +1,6 @@
 # Aether Many website decisions and verification
 
-**Updated:** 2026-08-27
+**Updated:** 2026-09-12
 
 **Objective:** Use the Business Builder website method to create and verify the strongest defensible initial public website for Aether after comparing it with current popular open and self-hosted agents.
 
@@ -8,9 +8,25 @@
 
 **Scope:** English vision and pre-release website, responsive implementation, current-category research, naming recommendation, publication, and domain connection. Email collection, analytics, account creation, and a product release are outside scope.
 
+## Approved sovereignty update · 12 September 2026
+
+Yusuf approved all seven comparisons and then explicitly asked to update the website. Applied the approved opening, six-benefit group, ownership section, everyday examples, editions, learning copy, protection explanation, mission, Q&A, and closing action. The opening now names an AI agent and the work it takes off the owner’s plate; ownership runs through the page as the reason to trust it with more. The existing visual design, illustrations, navigation, edition order, and GitHub action remain.
+
+Current primary competitor pages and firsthand user requests informed the opening. Memory, learning, autonomy, and self-hosting are shared category features; no exclusive feature or better performance than OpenClaw or Hermes was established. The March positioning document’s blanket competitive claims were not reused. Complete model ownership, licensing, and migration remain goals; hosted services retain their own limits.
+
+| Review | What was checked | Result |
+| --- | --- | --- |
+| 1 · Cold desktop reading | Entire rendered page and expanded ownership detail at 1280 × 800 | 9/10 editorial clarity judgment: product, desired relief, owner control, development status, and next action are clear. No material copy change needed. |
+| 2 · Phone use | 390 × 844 opening, edition choice, navigation, and keyboard-opened provider Q&A | 9/10: readable without horizontal overflow; menu opens and closes after navigation; ownership qualifications remain usable. |
+| 3 · Skeptical buyer and technical check | Compare the rendered claims with product limits; test Remember interaction; validate local links, IDs, canonical URL, and versioned assets | 9/10: no new material issue. Future public release and model ownership are distinguished; no comparative reliability guarantee is added. Approved body matches the implementation apart from asset paths and whitespace. |
+
+The scores are agent editorial checks, not customer research. Publication uses a separate directory containing only the 13 public website files; private comparison and research files are excluded. The public GitHub README now uses the same mission and qualified release claims. Live verification follows deployment.
+
+Earlier sections below retain historical research and implementation context; the current mission and approved copy above govern where those records differ.
+
 ## Source of truth
 
-- The project README defines the mission: counter concentration of AI power with user-owned, decentralized agents and, later, groups of specialized agents with many independent owners.
+- Yusuf’s revised mission centers on complete ownership of the agent that becomes part of a person’s or company’s private life and work: data, memory, personality, instructions, capabilities, software, hosting, and ultimately the model. It supersedes the earlier concentration-of-power mission.
 - The project records define Aether as a small agent runtime rather than an AI model. Its intended design separates model providers and optional capabilities from the core, keeps operating records readable, and uses Git for review and recovery.
 - A private Aether instance runs Yusuf Young's personal agent on an Ubuntu VPS he controls. It has tools, skills, memory, hooks, autonomous operation, and cooperating agents.
 - The public GitHub repository currently contains the mission and website, not an installable Community Edition.
@@ -39,7 +55,7 @@
 
 ### Untested hypotheses
 
-- “It doesn’t come finished. It becomes yours.” will make the self-building architecture feel more valuable and specific than generic memory, self-hosting, or skill claims.
+- The approved headline, “Your AI agent. Less on your plate.”, will make useful delegation immediately understandable; ownership and adaptation will give the intended audience a reason to choose Aether. Conversion performance is unmeasured.
 - An OpenClaw or Hermes user will care enough about bottom-up capability growth above a protected foundation to follow an unreleased alternative.
 - Showing the adaptation loop before the architecture will make the user benefit clear without implying that Community Edition can be installed today.
 - “Aether Many” will be understood as one Aether project built for many independent owners, rather than as an awkward extension or a separate product.

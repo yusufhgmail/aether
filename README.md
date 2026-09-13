@@ -5,13 +5,17 @@
 
 ## The Guiding Star
 
-The world must not rely on four frontier models. Every company must have its own sovereign AI, trained in-house, under its own control.
+Your AI agent. Less on your plate.
 
-Sovereign AI > rented intelligence. Your model, your data, your control, your future. Not a rented brain you can lose access to tomorrow.
+Give Aether a goal. It remembers the details, follows through on the next steps, and builds the abilities it needs—around the way you work. Yours to shape. Yours to run. Built to stay yours.
 
 ## The Problem
 
-Four companies (OpenAI, Anthropic, Google, Meta) are on track to control the world's intelligence infrastructure. Every company that uses their APIs is building a dependency that can be revoked, priced up, or steered at any time. This is not a technology problem. It is a sovereignty problem.
+Your agent will come to know your work, relationships, plans, and private thoughts. It could become the most personal thing you have. The more you depend on it, the more important it is that it belongs to you.
+
+Aether’s mission is complete ownership: your data, memory, personality, instructions, abilities, the software that runs your agent, and ultimately the model itself. You should be able to decide what it becomes and keep building on it for years.
+
+The public edition is in development. Using a hosted model still means sending it data and accepting its provider’s limits. Complete model ownership and reliable migration between models remain goals.
 
 ## What Aether Is
 
@@ -29,14 +33,11 @@ A sufficiently general, self-improving agent that runs on your own server can, o
 
 Every person and every company will have their own **agent force**: multiple specialized agents working together as a unit, owned and controlled by that entity.
 
-The mission is to enable this transformation in a way that:
-1. **Preserves individuality** - each agent force remains under its owner's control
-2. **Creates a rules-based ecosystem** - agents cooperate AND compete within structured constraints
-3. **Prevents concentration of power** - the system architecture itself must make it impossible for a single smarter agent to become "dictator"
+Each person and company should own the agent they depend on. Those agents can develop differently and work together while remaining under their own owners’ control.
 
 ### The Stakes
 
-When AI reaches an autonomy tipping point, hyper-competition will follow. Without deliberate counterbalance, one dominant AI system could emerge and concentrate power. The only defense: millions of decentralized, user-owned agents that can recognize when their freedom is at stake and stand together.
+Every correction, remembered preference, and useful tool makes the agent more valuable to its owner. That investment should stay under their control as their needs change. Protection of private information and clear boundaries on powerful actions make useful delegation possible.
 
 ## Design Principles
 
@@ -73,13 +74,13 @@ The first commercial adaptation of Aether targets SMB CEOs. Their problem: too m
 
 **The employee model:** Every Aether is an employee that works for you. It talks, it learns your procedures, it takes on more responsibility as you trust it. Aether for CEOs is that employee, pre-built for the executive role. Aether CE is the raw engine for builders who want to hire and train their own. Aether for Companies scales the same model to a workforce: an agent force where the first employee hires the next one.
 
-**How it's delivered:** Installed on a VPS the client owns. Runs on any model. Fully portable. They own the data and the harness. It is literally their most sensitive business asset, and it is fully under their control.
+**Planned delivery:** Setup, workflows, and support for the CEO’s day, running on the client’s own server with permissions they set. Its stored knowledge and tools stay on the company’s infrastructure. Provider choice does not mean every model is compatible or fully portable.
 
-**Why on-prem finally makes sense:** This is not a CRM or a chatbot. It is an executive employee that never forgets, never sleeps, and never leaves with the knowledge: their inbox, their decisions, their relationships, their strategy. No CEO should host that on someone else's cloud, subject to model changes, price hikes, or data access by a provider.
+**Why ownership matters:** The company’s decisions, relationships, strategy, and ways of working become part of its agent. The company should be able to inspect, back up, and keep improving that work. Connected models and services still receive the data sent to them.
 
-**What we sell:** The systems in which agents collaborate with each other, and simple installation interfaces. The engine is open source (Aether CE). The commercial value is the role-ready packaging, the collaboration layer, and the support.
+**What we sell:** Setup, prepared workflows, and support that help owners get useful work done sooner. The Community Edition is planned to be free; its license will be published with the public release.
 
-**Relationship to Aether CE:** Aether CE stays minimal and open source. Aether for CEOs is a branch: the same codebase pre-loaded with plugins, instructions, dashboard, and integrations. The community edition feeds the commercial arm; the commercial arm funds the community.
+**Relationship to Aether CE:** The editions share the same core. Aether for CEOs adds instructions, workflows, and integrations for the role. The community edition feeds the commercial arm; the commercial arm funds the community.
 
 ## Aether for Companies
 
@@ -127,4 +128,4 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 
 ## Philosophy Source
 
-Full philosophy document: `/home/ai/publish/archive/aether-ce/philosophy.md`
+Historical philosophy document: `/home/ai/publish/archive/aether-ce/philosophy.md`. The revised ownership mission above supersedes its earlier concentration-of-power framing.

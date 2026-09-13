@@ -97,7 +97,7 @@ const growthStages = {
   keep: {
     kicker: "Keep what worked",
     title: "The next job starts stronger.",
-    copy: "Useful preferences, ways of working, and new abilities stay available after the conversation ends.",
+    copy: "Your preferences, working instructions, and tools stay on your system after the conversation ends. You can inspect them, back them up, and keep improving them.",
     signals: ["MEMORY", "PREFERENCE", "ABILITY"],
   },
 };
