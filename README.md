@@ -5,17 +5,21 @@
 
 ## The Guiding Star
 
-Get more done with an AI agent that’s yours to keep.
+**Get more done, together.**
 
-Give Aether a goal. It remembers the details, follows through on the next steps, and builds the abilities it needs—around the way you work. Yours to shape. Yours to run. Built to stay yours.
+Aether is being built to work with you, your team, and their agents. It should carry the context and work from one step to the next, reducing repeated explanations, manual handoffs, and chasing for updates. Your team keeps the decisions that need human judgment.
 
 ## The Problem
 
-Your agent will come to know your work, relationships, plans, and private thoughts. It could become the most personal thing you have. The more you depend on it, the more important it is that it belongs to you.
+Useful work often depends on several people. Someone has to collect the brief, pass on the relevant details, follow up, and notice when a decision is stuck. Aether's direction is to take on that coordination alongside the work itself.
 
-Aether’s mission is complete ownership: your data, memory, personality, instructions, abilities, the software that runs your agent, and ultimately the model itself. You should be able to decide what it becomes and keep building on it for years.
+Start with an agent that learns your way of working. Bring specialist Aethers into company workflows alongside human colleagues. Over time, let your Aether work with other people's agents on your behalf, within limits you control on sharing information and making commitments.
 
-The public edition is in development. Using a hosted model still means sending it data and accepting its provider’s limits. Complete model ownership and reliable migration between models remain goals.
+The knowledge, instructions, and tools accumulated through that work should remain under your control. Ownership makes the investment something you can keep; it also supports an agent that represents your interests.
+
+**Release status:** A private instance is in use. The Community Edition, company workforce service, shared management view, and automated dealings with other people's agents are not publicly released. External model providers still receive data sent to them; company-controlled specialist models and reliable migration are longer-term goals.
+
+_<<--[CODEX] 2026-09-15: Aligned the website and its GitHub opening with the updated mission, accepted cooperation direction, and Company Release Plan. Public copy explains cooperation through less coordination work, useful specialist handoffs, human decisions, and retained company know-how. Future examples are labeled as planned.>>_
 
 ## What Aether Is
 
@@ -122,4 +126,4 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 
 ## Philosophy Source
 
-Historical philosophy document: `/home/ai/publish/archive/aether-ce/philosophy.md`. The revised ownership mission above supersedes its earlier concentration-of-power framing.
+Historical philosophy document: `/home/ai/publish/archive/aether-ce/philosophy.md`. The current mission and strategic decisions are maintained on the VPS in `/root/docs/strategy/MISSION.md` and `/root/docs/strategy/STRATEGIC-DECISIONS.md`. The website expresses the cooperation direction through user benefits and distinguishes future capabilities from the private system in use.

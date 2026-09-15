@@ -85,14 +85,14 @@ const growthStages = {
   build: {
     kicker: "Build what is missing",
     title: "It adds or improves an ability.",
-    copy: "Your Aether can create a tool, improve how it works, or change what it remembers. The protected part stays unchanged.",
+    copy: "Your Aether can turn repeated work into a reusable tool or procedure, so you spend less time walking it through the same steps.",
     signals: ["TOOL", "METHOD", "MEMORY"],
   },
   collaborate: {
-    kicker: "Bring in other agents",
-    title: "It gets help when the goal is bigger.",
-    copy: "Your Aether can give focused parts of the work to other agents, compare what they return, and combine the best parts.",
-    signals: ["RESEARCHER", "BUILDER", "REVIEWER"],
+    kicker: "Planned company collaboration",
+    title: "The next colleague gets the context.",
+    copy: "In the planned workforce, your Aether passes the relevant brief and progress to another specialist, then brings your team the result or the decision that needs you.",
+    signals: ["BRIEF", "PROGRESS", "DECISION"],
   },
   keep: {
     kicker: "Keep what worked",

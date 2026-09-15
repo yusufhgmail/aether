@@ -1,12 +1,48 @@
 # Aether Many website decisions and verification
 
-**Updated:** 2026-09-12
+**Updated:** 2026-09-15 (Mexico City)
 
 **Objective:** Use the Business Builder website method to create and verify the strongest defensible initial public website for Aether after comparing it with current popular open and self-hosted agents.
 
 **Primary action:** Read and follow the Community Edition plan in the public GitHub repository.
 
 **Scope:** English vision and pre-release website, responsive implementation, current-category research, naming recommendation, publication, and domain connection. Email collection, analytics, account creation, and a product release are outside scope.
+
+## Collaboration and company workforce update · 15 September 2026
+
+**Request:** Yusuf authorized a website update from the revised mission and the company plans in Aether and Enterprise LLM. Include those ideas only where they explain an actual user benefit.
+
+**Current message:** “Get more done. Together.” Aether is being built to reduce repeated explanations, manual handoffs, and chasing for updates. The company story is AI colleagues working alongside human colleagues, carrying relevant context between roles and bringing people the decisions that need them. Ownership supports continuity: retain the knowledge, instructions, and tools built through company work.
+
+Sources read: the VPS mission, strategic decisions SD-002 and SD-003, positioning §8, this project's [Company Release Plan](COMPANY-RELEASE-PLAN.md), and the [Enterprise LLM summary](https://github.com/yusufhgmail/enterprise-llm/blob/main/BUSINESS_CONTEXT.md#aether-workforce-branch-proposed). This update applies those accepted directions; it does not change the strategy or release plan.
+
+### What changed
+
+- Rewrote the opening, metadata, benefit cards, mission explanation, FAQ, and closing action around useful collaboration.
+- Added two visibly illustrative planned workflows: resolving a customer issue and onboarding a customer. Both name the AI roles, show context moving with the work, and include a human decision.
+- Added a further-ahead supplier coordination example explaining selective disclosure and limits on commitments. It explicitly says automated dealings with other people's agents are not available.
+- Replaced the superseded CEO-first edition order with Community Edition, hands-on company workforces, then a shared management view. An executive assistant remains one possible company role.
+- Expressed later specialization as fitting company work and preparing useful new AI colleagues. Better results and lower costs remain goals to demonstrate; no training architecture or claimed savings appear in the sales story.
+- Replaced the internal safety diagram with practical benefits: seeing where information goes, reviewing powerful changes, and recovering access.
+- Preserved the existing visual system, personal examples, responsive navigation, growth tabs, ownership qualifications, and GitHub action. Messaging examples now explicitly say planned.
+- Aligned the GitHub README opening so following the primary action continues the same story.
+
+### Claim boundaries
+
+The private agent's memory, conversational adaptation, tools, and protected operations provide the foundation. The public Community Edition is not released. Company workforces, shared supervision, cross-owner delegation, specialist model training, and automated specialist preparation remain planned. Examples are illustrations, not product screenshots or measured results. No unique-in-market claim, comparative superiority, private-customer data, release date, pricing, or complete-privacy guarantee was added.
+
+### Verification and publication
+
+- `html-validate` passed for the homepage and custom 404 page; Node's JavaScript syntax check and `git diff --check` passed.
+- Inspected the rendered opening, new team workflow, and three release cards at 1280 × 800 and 390 × 844. The primary action and development status fit on the phone's first screen. Layout measurements at 320, 390, 1000, and 1280px showed no horizontal document overflow; desktop navigation fits at 1000px.
+- Verified the phone menu opens, navigates to the team section, closes, and restores scrolling. The skip link focuses the main heading. The revised collaboration tab renders its planned-workforce explanation, ArrowRight moves focus and selection to Remember, and the company availability FAQ expands. No browser console errors or warnings were reported.
+- Published the 13 public website files to the existing Cloudflare Pages project: [deployment](https://ee7dae7f.aether-many.pages.dev), [canonical domain](https://aethermany.com/), and [www](https://www.aethermany.com/). Documentation and Git metadata are not in the upload.
+- All three homepage URLs return 200 and contain the new copy. Versioned CSS and JavaScript return 200 and match the source bytes; images, logos, sitemap, and robots return 200. Missing pages, the website documentation path, and Git metadata return 404.
+- Rechecked the live canonical domain in the browser on phone and desktop, including the navigation and collaboration tab. Cloudflare rejects the default Python urllib client with error 1010; normal browser and curl requests succeed. No hosting security settings were changed.
+
+These checks establish rendering, navigation, and accurate release labeling. They do not establish product performance or customer demand.
+
+_<<--[CODEX] 2026-09-15: This entry is the current website direction and supersedes the earlier website messaging where it differs. Earlier decisions and research remain below as history. No change to the mission, accepted strategic decisions, company release sequence, or Enterprise LLM commercial structure is implied.>>_
 
 ## Approved headline follow-up · 12 September 2026
 
@@ -30,7 +66,7 @@ The scores are agent editorial checks, not customer research. Publication uses a
 
 Earlier sections below retain historical research and implementation context; the current mission and approved copy above govern where those records differ.
 
-## Source of truth
+## Historical source assessment · 12 September 2026
 
 - Yusuf’s revised mission centers on complete ownership of the agent that becomes part of a person’s or company’s private life and work: data, memory, personality, instructions, capabilities, software, hosting, and ultimately the model. It supersedes the earlier concentration-of-power mission.
 - The project records define Aether as a small agent runtime rather than an AI model. Its intended design separates model providers and optional capabilities from the core, keeps operating records readable, and uses Git for review and recovery.
