@@ -8,6 +8,14 @@
 
 **Scope:** English vision and pre-release website, responsive implementation, current-category research, naming recommendation, publication, and domain connection. Email collection, analytics, account creation, and a product release are outside scope.
 
+## Archive and comparison record · 15 September 2026
+
+The pre-collaboration website is preserved from Git commit `94e025eafebe16f5d18bc2db6bed744923ecbeee`. An exact static copy of its 13 public files is also kept internally at `/home/ai/website-archives/aether-many/2026-09-15-before-collaboration/`; it is outside the repository's public upload directory and is not deployed. The updated site is commit `7f1021b211493e0b707a9cda6e5dcdf7627bf823`.
+
+The main changes were a change in message hierarchy and a corresponding page structure: the old site led with an individually owned, self-improving agent for personal life and work; the new site leads with “Get more done. Together.” and explains collaboration through less repeated context, fewer handoffs, human decisions, and retained company know-how. The new page adds planned company-workforce and management-view examples, labels them as future work, and moves the Community Edition to the first stage of the release sequence. The old personal examples, ownership explanation, growth loop, and control qualifications were retained or adapted where they still explain a visitor benefit.
+
+For a source-level comparison, inspect `git diff 94e025e..7f1021b -- index.html styles.css script.js README.md`. For a visual comparison, open the internal archive preview and the current [aethermany.com](https://aethermany.com/) in separate Codex browser tabs.
+
 ## Collaboration and company workforce update · 15 September 2026
 
 **Request:** Yusuf authorized a website update from the revised mission and the company plans in Aether and Enterprise LLM. Include those ideas only where they explain an actual user benefit.
@@ -36,9 +44,10 @@ The private agent's memory, conversational adaptation, tools, and protected oper
 - `html-validate` passed for the homepage and custom 404 page; Node's JavaScript syntax check and `git diff --check` passed.
 - Inspected the rendered opening, new team workflow, and three release cards at 1280 × 800 and 390 × 844. The primary action and development status fit on the phone's first screen. Layout measurements at 320, 390, 1000, and 1280px showed no horizontal document overflow; desktop navigation fits at 1000px.
 - Verified the phone menu opens, navigates to the team section, closes, and restores scrolling. The skip link focuses the main heading. The revised collaboration tab renders its planned-workforce explanation, ArrowRight moves focus and selection to Remember, and the company availability FAQ expands. No browser console errors or warnings were reported.
-- Published the 13 public website files to the existing Cloudflare Pages project: [deployment](https://ee7dae7f.aether-many.pages.dev), [canonical domain](https://aethermany.com/), and [www](https://www.aethermany.com/). Documentation and Git metadata are not in the upload.
+- Published the 13 public website files to the existing Cloudflare Pages project: [deployment](https://649a2ea1.aether-many.pages.dev), [canonical domain](https://aethermany.com/), and [www](https://www.aethermany.com/). Documentation and Git metadata are not in the upload.
 - All three homepage URLs return 200 and contain the new copy. Versioned CSS and JavaScript return 200 and match the source bytes; images, logos, sitemap, and robots return 200. Missing pages, the website documentation path, and Git metadata return 404.
 - Rechecked the live canonical domain in the browser on phone and desktop, including the navigation and collaboration tab. Cloudflare rejects the default Python urllib client with error 1010; normal browser and curl requests succeed. No hosting security settings were changed.
+- Opened the internal archive preview at `http://127.0.0.1:4174/` in the Codex browser panel. The old title, headline, benefits, editions, and safety language are present; it renders at 1280px with no horizontal overflow and no browser errors.
 
 These checks establish rendering, navigation, and accurate release labeling. They do not establish product performance or customer demand.
 
