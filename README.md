@@ -59,43 +59,37 @@ The next interface layer is not a dashboard, an app, or a portal. It is a conver
 
 This is what Aether is. The core thesis is general: the UI of the future is owned, sovereign AI that acts for you. Specific adaptations of that thesis serve specific audiences.
 
-## Aether for CEOs (Commercial Arm)
+## Company Release Plan
 
-The first commercial adaptation of Aether targets SMB CEOs. Their problem: too many things on their plate, too much to do, no overview.
+**Have your own sovereign AI workforce. Don't outsource your company's unique advantage.**
 
-**What it is:** Aether as the CEO's first AI employee. Pre-hired and pre-trained: the same engine, onboarded for the role from day one. Ships with:
-- Dashboard / visual presentation layer
-- Pre-built connectors (email, calendar, WhatsApp, messaging)
-- Proactive monitoring and briefing capabilities
-- Task management and follow-up tracking
-- Safeguards (approval gates, outbound filters)
-- Templates for common CEO workflows
-- Support and onboarding
+1. **Release Aether:** Publish a usable Community Edition and establish useful work for external owners.
+2. **Build company workforces through consulting:** Configure multiple specialist Aether employees with company knowledge, tools, responsibilities, and working handoffs.
+3. **Build the management layer:** Coordinate employees and show humans their work, results, responsibilities, costs, and collaboration.
 
-**The employee model:** Every Aether is an employee that works for you. It talks, it learns your procedures, it takes on more responsibility as you trust it. Aether for CEOs is that employee, pre-built for the executive role. Aether CE is the raw engine for builders who want to hire and train their own. Aether for Companies scales the same model to a workforce: an agent force where the first employee hires the next one.
+**Long term:**
 
-**Planned delivery:** Setup, workflows, and support for the CEO’s day, running on the client’s own server with permissions they set. Its stored knowledge and tools stay on the company’s infrastructure. Provider choice does not mean every model is compatible or fully portable.
+4. **Train company-specific specialist LLMs:** Aim for better task performance, lower cost, better collaboration, and clearer division of responsibility.
+5. **Automate specialist-training decisions:** Decide which specialists to train, what they should learn, and how to evaluate and improve them.
 
-**Why ownership matters:** The company’s decisions, relationships, strategy, and ways of working become part of its agent. The company should be able to inspect, back up, and keep improving that work. Connected models and services still receive the data sent to them.
+The full [Company Release Plan](docs/COMPANY-RELEASE-PLAN.md) defines the sequence, ownership promise, GrokBot comparison agenda, and proposed relationship to Enterprise LLM. These are planned stages, not released capabilities.
 
-**What we sell:** Setup, prepared workflows, and support that help owners get useful work done sooner. The Community Edition is planned to be free; its license will be published with the public release.
+_<<--[CODEX] 2026-09-15: Updated the company plan to Yusuf's release → consulting → management sequence, followed by specialist training and autonomous training decisions.>>_
 
-**Relationship to Aether CE:** The editions share the same core. Aether for CEOs adds instructions, workflows, and integrations for the role. The community edition feeds the commercial arm; the commercial arm funds the community.
+## Aether for CEOs
+
+An executive assistant remains a possible first specialist: company briefings, email and calendar work, task follow-up, and decision support. It is a role within the workforce service, rather than a required separate product before company deployments.
 
 ## Aether for Companies
 
-The broader path to adoption: bring self-owned agents into real company workflows, then scale out to multi-agent collaboration as the default unit of software.
+The commercial direction is to build specialist employees around a company's actual work, then provide the management layer that coordinates them. Early employees specialize through instructions, knowledge, tools, and workflows; dedicated model training comes later.
 
-Aether agents can:
-- Run company operations (CRM, support, analytics, marketing)
-- Learn from company data and workflows
-- Replace generic SaaS with custom-fit software
-- Cooperate with other agents in the company's agent force
+The company should control its workforce's stored knowledge, tools, and runtime. External models and connected services still receive the data sent to them. Company-controlled specialist weights are a long-term goal.
 
 ## Connection to Other Ventures
 
 - **CRM As A Service:** Aether agents power the observation/learning/spec engine that builds custom CRM replacements.
-- **Enterprise LLM:** Aether is the runtime. Enterprise LLM is the business: bringing sovereign AI to companies.
+- **Enterprise LLM / Works Like Us:** The Aether workforce is a proposed branch of the company-owned AI vision. Aether supplies employees and coordination; Enterprise LLM could supply company-trained specialist models. See the [relationship summary](https://github.com/yusufhgmail/enterprise-llm/blob/main/BUSINESS_CONTEXT.md#aether-workforce-branch-proposed).
 - **Event Risk Trainer / FIRE Platform:** Aether already runs Yusuf's personal agent (this one). The FIRE platform demonstrates what Aether-powered agents can build.
 
 ## Current State
@@ -123,8 +117,8 @@ Then open <http://127.0.0.1:4173/>. Website decisions, naming research, assumpti
 
 1. Ship Aether CE as a public, usable community edition
 2. Onboard first external users (builders hiring their own employee)
-3. Build Aether for CEOs (the first commercial arm: the pre-hired executive employee)
-4. Scale to Aether for Companies (one employee to a workforce, multi-agent cooperation)
+3. Choose a first company workflow and deliver collaborating specialist employees through consulting
+4. Use those deployments to define the management layer; see the [full release plan](docs/COMPANY-RELEASE-PLAN.md) for the long-term training direction
 
 ## Philosophy Source
 
